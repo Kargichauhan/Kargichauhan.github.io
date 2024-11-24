@@ -5,14 +5,6 @@ title: "blogs"
 author_profile: true
 ---
 
-{% include base_path %}
-
-# My Creative Blog
-Welcome to a world of ideas, insights, and stories.
-
----
-
-<div class="blog-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 50px 0;">
 
 ### Blog Post 1
 ![Blog Post 1](00000.png)
