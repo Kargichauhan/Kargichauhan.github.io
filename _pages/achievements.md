@@ -1,10 +1,11 @@
 ---
-layout: archive
-title: "Here are some of the accomplishments I'm most proud of in my professional and academic journey:"
-permalink: /achievements/
+permalink: /
+title: "Achi"
 author_profile: true
+redirect_from: 
+  
+  - /achievements.html
 ---
-
 
 
 ### NASA AMES

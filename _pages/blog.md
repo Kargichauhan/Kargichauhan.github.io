@@ -1,10 +1,11 @@
 ---
-layout: archive
-title: "My Creative Blog"
-permalink: /blog/
+permalink: /
+title: "My Blogs"
 author_profile: true
+redirect_from: 
+  - /blog/
+  - /blogs.html
 ---
-
 # My Creative Blog
 Welcome to a world of ideas, insights, and stories.
 
