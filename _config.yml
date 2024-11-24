@@ -21,12 +21,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "pic1.jpg"
   name             : "Kargi Chauhan"
   pronouns         : # example: "she/her"  
-  bio              : "ML Engineer"
+  bio              : "ML Engineer @ 3UM"
   location         : "Sunnyvale, California"
-  employer         : "3UM"
+  employer         : 3UM
   uri              : # URL
   email            : "kargichauhan2302@gmail.com" 
 
@@ -49,7 +49,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
