@@ -1,11 +1,11 @@
 ---
-permalink: /blogs/
-title: "hahahahahaha2222"
+layout: archive
+permalink: /blog/
+title: "blogs"
 author_profile: true
-redirect_from: 
-  - "/blog/"
-  - "/blogs.html"
 ---
+
+{% include base_path %}
 
 # My Creative Blog
 Welcome to a world of ideas, insights, and stories.
