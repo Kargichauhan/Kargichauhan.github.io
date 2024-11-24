@@ -17,40 +17,40 @@ Education
 
 Work Experience
 ======
-* **Machine Learning Researcher** (Aug 2024 - Present)  
+* **Researcher - ML, LLMs, NLP** (Aug 2024 - Present)  
   *San José State University Research Foundation*  
   - Leading AI research in Large Language Models (LLMs) for innovative AI-driven solutions.  
   - Focused on Explainable AI (XAI) to enhance transparency in complex AI systems.  
   - Bridging theory and practical AI applications for real-world solutions.  
 
-* **Machine Learning Engineer** (Aug 2024 - Present)  
+* **Software Engineer - ML, LLMs, XAI** (Aug 2024 - Present)  
   *3UM*  
   - Improved LLM accuracy by 25% through fine-tuning with PyTorch and Huggingface.  
   - Optimized performance using KV cache and Rotary Embeddings.  
   - Integrated models into cloud-based platforms, enhancing distributed systems.  
 
-* **ML Research Scientist** (Feb 2024 - May 2024)  
+* **Software Engineering - ML/AI** (Feb 2024 - May 2024)  
   *NASA JPL*  
   - Developed AI systems for CubeSat with 97% pose estimation accuracy using vision sensors.  
   - Managed multi-modal neural network training and large-scale data processing.  
   - Contributed to the NASA Johnson Space Center’s pose estimation challenge.  
 
-* **Data Science Researcher** (Feb 2023 - Apr 2024)  
+* **Data Science Researcher - VR, AR, AI** (Feb 2023 - Apr 2024)  
   *Mining Engineering Department*  
   - Designed a virtual St. Xavier Mine, enhancing simulations with advanced AI algorithms.  
   - Optimized A* and Dijkstra pathfinding, reducing execution times by 23%.  
 
-* **HCI Researcher** (Apr 2024 - Sep 2024)  
+* **HCI Researcher - AI, Healthcare** (Apr 2024 - Sep 2024)  
   *NJIT Ying Wu College of Computing*  
   - Led research on ethical AI in aging, focusing on fairness, transparency, and inclusivity.  
   - Collaborated with Professor Alisha Pradhan on AI applications for older adults.  
 
-* **Data Science Researcher** (Feb 2023 - Feb 2024)  
+* **Data Science Researcher - VR, Robotics, Healthcare** (Feb 2023 - Feb 2024)  
   *Health Science - Medicine*  
   - Explored Cyberlearning with co-robotic teachable agents for immersive education.  
   - Developed virtual agents using VR for medical student engagement.  
 
-* **Software Engineer Researcher** (Jan 2023 - Feb 2024)  
+* **Software Engineer Researcher - AI, ML** (Jan 2023 - Feb 2024)  
   *Aerospace Engineering Department*  
   - Created a virtual lab simulating aerospace scenarios using AI and ML.  
   - Applied MATLAB and ML algorithms to optimize aerospace designs.  
