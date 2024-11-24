@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Beyond Stars
-![Beyond Stars](image02.png)
+![Beyond Stars](image2323.png)
 
 **Beyond Stars** is an interactive web app that lets users explore the night sky as seen from exoplanets. Using data from NASA's Gaia star catalog, the app provides a unique 3D view of stars and constellations from various exoplanetary perspectives. It also features an educational gaming mode to engage users in discovering celestial objects.
 
@@ -18,8 +18,8 @@ author_profile: true
 
 #### Links
 <div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/Kargichauhan/beyondthestars" style="padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
-  <a href="https://beyondstars.space" style="padding: 10px 20px; background-color: #28A745; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Website</a>
+  <a href="https://github.com/Kargichauhan/beyondthestars" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://beyondstars.space" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Website</a>
   <a href="https://www.canva.com/design/DAGSyNAtv2Q/10FhJ-Qr4NBaI6PKU76vDg/view" style="padding: 10px 20px; background-color: #FFC107; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
 </div>
 
@@ -39,8 +39,8 @@ author_profile: true
 
 #### Links
 <div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/rachelS485/ISTA-498-Capstone-Group-1" style="padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
-  <a href="https://www.canva.com/design/DAGDLihHpOY/iQS9LNLp3uMDeqHJTggxOw/view" style="padding: 10px 20px; background-color: #28A745; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
+  <a href="https://github.com/rachelS485/ISTA-498-Capstone-Group-1" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://www.canva.com/design/DAGDLihHpOY/iQS9LNLp3uMDeqHJTggxOw/view" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
 </div>
 
 ---
@@ -58,8 +58,8 @@ This project focuses on enabling deep space exploration using innovative system-
 
 #### Links
 <div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/Kargichauhan/ml-main" style="padding: 10px 20px; background-color: #FF5733; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
-  <a href="https://pdf.ac/220KBn" style="padding: 10px 20px; background-color: #28A745; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
+  <a href="https://github.com/Kargichauhan/ml-main" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://pdf.ac/220KBn" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
 </div>
 
 ---
@@ -76,7 +76,7 @@ This project focuses on implementing linear regression using matrix normal equat
 
 #### Links
 <div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting" style="padding: 10px 20px; background-color: #FFC107; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
 </div>
 
 ## Metropolis Hastings
@@ -92,7 +92,7 @@ This project involves using the Metropolis-Hastings MCMC algorithm to infer 3D l
 
 #### Links
 <div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/Kargichauhan/Metropolis---Hastings-MCMC-Inference-of-3D-Line/tree/main/Metropolis%20-%20Hastings%20MCMC%20Inference%20of%203D%20Line" style="padding: 10px 20px; background-color: #17A2B8; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://github.com/Kargichauhan/Metropolis---Hastings-MCMC-Inference-of-3D-Line/tree/main/Metropolis%20-%20Hastings%20MCMC%20Inference%20of%203D%20Line" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
 </div>
 
 ---
@@ -104,7 +104,7 @@ Stay tuned for an exciting new project!
 
 #### Links
 <div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="#" style="padding: 10px 20px; background-color: #6C757D; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Coming Soon!</a>
+  <a href="#" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Coming Soon!</a>
 </div>
 
 
