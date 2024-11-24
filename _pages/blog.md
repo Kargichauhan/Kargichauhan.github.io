@@ -1,11 +1,12 @@
 ---
-layout: archive
-title: "Welcome to a world of ideas, insights, and stories."
-permalink: /blog/
+permalink: /blogs/
+title: "hahahahahaha2222"
 author_profile: true
-redirect_from:
-  - /blogs.html
+redirect_from: 
+  - "/blog/"
+  - "/blogs.html"
 ---
+
 # My Creative Blog
 Welcome to a world of ideas, insights, and stories.
 
