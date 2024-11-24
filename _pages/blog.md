@@ -3,7 +3,7 @@ permalink: /
 title: "My Blogs"
 author_profile: true
 redirect_from: 
-  - /blog/
+
   - /blogs.html
 ---
 # My Creative Blog
