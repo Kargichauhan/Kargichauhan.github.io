@@ -1,10 +1,10 @@
 ---
-permalink: /
-title: "Achi"
+permalink: /achievements/
+title: "hahahahahaha"
 author_profile: true
 redirect_from: 
-  
-  - /achievements.html
+  - "/ach/"
+  - "/ach.html"
 ---
 
 
