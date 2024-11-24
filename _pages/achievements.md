@@ -1,16 +1,11 @@
 ---
 layout: archive
-#title: "CV"
+title: "Here are some of the accomplishments I'm most proud of in my professional and academic journey:"
 permalink: /achievements/
 author_profile: true
-redirect_from:
- 
 ---
-## Achievements
 
-Here are some of the accomplishments I'm most proud of in my professional and academic journey:
 
----
 
 ### NASA AMES
 ![NASA AMES](certi1.png)  
