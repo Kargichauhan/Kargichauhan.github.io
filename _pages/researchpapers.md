@@ -1,8 +1,10 @@
 ---
 layout: archive
-title: "Research Papers"
+#title: "CV"
 permalink: /researchpapers/
 author_profile: true
+redirect_from:
+
 ---
 
 ## Large Language Models and XAI
