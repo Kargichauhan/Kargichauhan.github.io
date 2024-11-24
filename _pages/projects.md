@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Beyond Stars!
-[Beyond Stars](image02.png)
+![Beyond Stars](image02.png)
 
 **Beyond Stars** is an interactive web app that lets users explore the night sky as seen from exoplanets. Using data from NASA's Gaia star catalog, the app provides a unique 3D view of stars and constellations from various exoplanetary perspectives. It also features an educational gaming mode to engage users in discovering celestial objects.
 
@@ -17,9 +17,11 @@ author_profile: true
 - **Data Source:** ESA Gaia DR3 Star Catalog
 
 #### Links
-- [GitHub Repository](https://github.com/Kargichauhan/beyondthestars)
-- [Website](https://beyondstars.space)
-- [Demo](https://www.canva.com/design/DAGSyNAtv2Q/10FhJ-Qr4NBaI6PKU76vDg/view)
+<div style="border: 2px solid #007BFF; padding: 10px; border-radius: 10px; margin-top: 10px; background-color: #F0F8FF;">
+  - [GitHub Repository](https://github.com/Kargichauhan/beyondthestars)
+  - [Website](https://beyondstars.space)
+  - [Demo](https://www.canva.com/design/DAGSyNAtv2Q/10FhJ-Qr4NBaI6PKU76vDg/view)
+</div>
 
 ---
 
@@ -36,8 +38,10 @@ author_profile: true
 - **Other Tools:** Email API for notifications, Data scraping from university course catalogs
 
 #### Links
-- [GitHub Repository](https://github.com/rachelS485/ISTA-498-Capstone-Group-1)
-- [Demo](https://www.canva.com/design/DAGDLihHpOY/iQS9LNLp3uMDeqHJTggxOw/view)
+<div style="border: 2px solid #28A745; padding: 10px; border-radius: 10px; margin-top: 10px; background-color: #E6FFED;">
+  - [GitHub Repository](https://github.com/rachelS485/ISTA-498-Capstone-Group-1)
+  - [Demo](https://www.canva.com/design/DAGDLihHpOY/iQS9LNLp3uMDeqHJTggxOw/view)
+</div>
 
 ---
 
@@ -53,8 +57,10 @@ This project focuses on enabling deep space exploration using innovative system-
 - **System Architecture:** Multi-layered inspector satellite design
 
 #### Links
-- [GitHub Repository](https://github.com/Kargichauhan/ml-main)
-- [Demo](https://pdf.ac/220KBn)
+<div style="border: 2px solid #FF5733; padding: 10px; border-radius: 10px; margin-top: 10px; background-color: #FFEFE6;">
+  - [GitHub Repository](https://github.com/Kargichauhan/ml-main)
+  - [Demo](https://pdf.ac/220KBn)
+</div>
 
 ---
 
@@ -69,7 +75,9 @@ This project focuses on implementing linear regression using matrix normal equat
 - **Tools:** Cross-Validation, Linear Regression, Polynomial Regression
 
 #### Links
-- [GitHub Repository](https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting)
+<div style="border: 2px solid #FFC107; padding: 10px; border-radius: 10px; margin-top: 10px; background-color: #FFF9E6;">
+  - [GitHub Repository](https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting)
+</div>
 
 ---
 
@@ -85,11 +93,18 @@ This project involves using the Metropolis-Hastings MCMC algorithm to infer 3D l
 - **Tools:** Pinhole Camera Model, Posterior Sampling, 2D Image Projections
 
 #### Links
-- [GitHub Repository](https://github.com/Kargichauhan/Metropolis---Hastings-MCMC-Inference-of-3D-Line/tree/main/Metropolis%20-%20Hastings%20MCMC%20Inference%20of%203D%20Line)
+<div style="border: 2px solid #17A2B8; padding: 10px; border-radius: 10px; margin-top: 10px; background-color: #E6F7FF;">
+  - [GitHub Repository](https://github.com/Kargichauhan/Metropolis---Hastings-MCMC-Inference-of-3D-Line/tree/main/Metropolis%20-%20Hastings%20MCMC%20Inference%20of%203D%20Line)
+</div>
 
 ---
 
-## Next Project
+## Next Project (Tinder meets Roommate)
 ![Coming Soon](676767.png)
 
 Stay tuned for an exciting new project!
+
+#### Links
+<div style="border: 2px solid #6C757D; padding: 10px; border-radius: 10px; margin-top: 10px; background-color: #F8F9FA;">
+  - **Coming Soon!**
+</div>
