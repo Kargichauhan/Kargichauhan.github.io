@@ -1,9 +1,9 @@
 ---
-permalink: /
-title: "My Blogs"
+layout: archive
+title: "Welcome to a world of ideas, insights, and stories."
+permalink: /blog/
 author_profile: true
-redirect_from: 
-
+redirect_from:
   - /blogs.html
 ---
 # My Creative Blog
