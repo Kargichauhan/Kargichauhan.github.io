@@ -1,11 +1,11 @@
 ---
-permalink: /achievements/
-title: "hahahahahaha"
+layout: archive
+permalink: /ach/
+title: "Posts by Category"
 author_profile: true
-redirect_from: 
-  - "/ach/"
-  - "/ach.html"
 ---
+
+{% include base_path %}
 
 
 ### NASA AMES

@@ -1,19 +1,70 @@
 ---
-layout: single
-title:  "Draft Post"
-header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
-categories: 
-  - Jekyll
-tags:
-  - edge case
+layout: archive
+permalink: /ach/
+title: "Posts by Category"
+author_profile: true
 ---
-Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore eu laboris Comme des Garçons hub pintxos sed eiusmod tote bag Shinkansen nisi consectetur pariatur. Nordic international quis finest Baggu dolore, bureaux hub hand-crafted ut joy sint Airbus A380.
 
-Conversation handsome hub cosy, enim emerging sed K-pop velit Gaggenau charming proident et boulevard ryokan. Remarkable airport deserunt international est, nulla minim magna emerging discerning in exclusive dolor. Commodo dolore deserunt cosy, global Nordic culpa uniforms signature charming. Smart ryokan commodo, eiusmod global occaecat incididunt aliqua Beams. Boulevard conversation excepteur finest Swiss non veniam Comme des Garçons essential artisanal. Destination Scandinavian international, anim Boeing 787 in duis Baggu irure essential.
+{% include base_path %}
 
-Fugiat exclusive laborum, Gaggenau ad Winkreative sharp elit labore. Remarkable officia ryokan Boeing 787, consectetur boutique Nordic Singapore espresso elit iconic perfect izakaya soft power excepteur. Ut veniam carefully curated K-pop dolore, uniforms in voluptate. Craftsmanship Ettinger Lufthansa sophisticated esse boutique veniam exquisite. Aute cillum bespoke, intricate consectetur in exquisite international lovely bulletin irure Washlet Gaggenau deserunt. Efficient eu quality of life wardrobe labore, dolor emerging airport concierge reprehenderit izakaya dolore liveable Baggu.
 
-Commodo elegant essential consectetur Gaggenau culpa consequat id sophisticated St Moritz sunt conversation duis non velit. Nulla business class non ut Marylebone ANA soft power fugiat carefully curated. Bureaux sed punctual handsome Washlet impeccable hand-crafted aute extraordinary tote bag enim boulevard soft power sleepy. Dolore conversation irure Zürich the best adipisicing, vibrant finest hub anim premium aliqua. Cupidatat smart international, bureaux Baggu id efficient punctual. Tempor nulla flat white enim, K-pop incididunt elit efficient Toto uniforms concierge discerning. Concierge sleepy extraordinary, deserunt Melbourne commodo Nordic Winkreative Washlet Ginza exercitation espresso.
+### NASA AMES
+![NASA AMES](certi1.png)  
+**NASA AMES**  
+Recognized as a Galactic Problem Solver for my outstanding contributions in the 2024 NASA International Space Apps Challenge.
 
-Tsutaya sed in business class sharp. Do Beams in adipisicing Lufthansa. Business class occaecat Melbourne, irure Singapore commodo espresso carefully curated quis quality of life adipisicing. Impeccable laborum efficient classic proident in. Beams Helsinki ullamco Marylebone dolore sophisticated concierge Muji anim duis joy ut. Comme des Garçons aute Muji in aliquip ryokan soft power Nordic essential ANA culpa elegant.
+---
+
+### Undergrad Research
+![Undergrad Research](CERTI2.png)  
+**UNDERGRAD RESEARCH**  
+Presented my project "From Mines to Minds" at the UR Inspiration Undergraduate Research Conference, focusing on immersive learning in mining engineering education.
+
+---
+
+### Alpha Sigma Alpha
+![Alpha Sigma Alpha](piccc.png)  
+**ALPHA SIGMA ALPHA**  
+Member of Alpha Sigma Alpha since January 2023, actively contributing to leadership, sisterhood, and community service at the University of Arizona.
+
+---
+
+### Google Developer Student Club
+![Google Developer Student Club](Unknownttt.png)  
+**GOOGLE DEVELOPER STUDENT CLUB UOFA**  
+As part of the e-board, I played a key role in organizing events, leading workshops, and fostering collaboration using Google technologies.
+
+---
+
+### Dean's List
+![Dean's List](Unknown55555.png)  
+**DEAN'S LIST**  
+I was honored to be on the Dean's List for four consecutive years, demonstrating my commitment to academic excellence.
+
+---
+
+### Scholarship
+![Scholarship](66666.png)  
+**SCHOLARSHIP**  
+I received the Global Wildcat Scholarship, covering 100% of my tuition. I also applied for the notable Galileo Circle Scholars program.
+
+---
+
+### The International Award for Young People
+![The International Award](3333.png)  
+**THE INTERNATIONAL AWARD FOR YOUNG PEOPLE**  
+A global program fostering personal growth and leadership. As a Gold Award recipient, I demonstrated dedication and community impact.
+
+---
+
+### TOI Women Soccer Lead
+![TOI Women Soccer Lead](U5555.png)  
+**TOI WOMEN SOCCER LEAD**  
+For three years, I had the privilege of leading and playing alongside multiple teams at the national and international levels. My journey as a player has been filled with thrilling experiences, from intense matches to memorable victories.
+
+---
+
+### Rewrite the Code
+![Rewrite the Code](11111.png)  
+**REWRITE THE CODE**  
+I have been part of the community team for three years, supporting women in tech and fostering an inclusive environment.
