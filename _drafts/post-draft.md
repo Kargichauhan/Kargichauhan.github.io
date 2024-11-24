@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /ach/
-title: "Posts by Category"
+title: "Achivements"
 author_profile: true
 ---
 
