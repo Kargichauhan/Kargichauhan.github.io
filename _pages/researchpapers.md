@@ -5,9 +5,11 @@ author_profile: true
 redirect_from:
 ---
 
+---
+
 ## Large Language Models and XAI
-- **Publication:** Scopus  
-- **Conference:** Kargi Chauhan, Vishnu Pendyala  
+- **Publication:** Kargi Chauhan, Vishnu Pendyala   
+- **Conference:** Scopus Index (Book - Chapter 2 - 7) [Under Review]
 
 <div style="display: flex; gap: 10px;">
   <a href="#" style="padding: 10px 20px; background-color: #808080; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Under Review</a>
