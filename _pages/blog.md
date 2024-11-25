@@ -1,13 +1,11 @@
 ---
 layout: archive
 permalink: /blog/
-title: "My Creative Blog"
+title: "Explore a world of ideas, insights, and stories"
 author_profile: true
 ---
 
 <div class="blog-content">
-  <h1>Welcome to My Creative Blog</h1>
-  <p>Explore a world of ideas, insights, and stories.</p>
 </div>
 
 <div class="blog-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
@@ -54,13 +52,14 @@ author_profile: true
   <h3><a href="https://medium.com/@kargic/get-ready-to-unlock-the-ai-secrets-one-byte-at-a-time-3aa7a55683b" target="_blank">Get Ready to Unlock the AI Secrets, One Byte at a Time</a></h3>
 </div>
 
+
 <!-- Blog Post 8 -->
 <div class="blog-card">
   <img src="2222222.png" alt="Work In Progress" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
   <h3><a href="https://kargichauhan.substack.com/publish/home?utm_source=substack" target="_blank">WIP</a></h3>
 </div>
 
-</div>
+
 
 <style>
 .blog-content {
