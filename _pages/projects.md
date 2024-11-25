@@ -1,9 +1,13 @@
 ---
 layout: archive
-title: "Projects"
+title: "hhhhhhh"
 permalink: /projects/
 author_profile: true
 ---
+
+{% include base_path %}
+
+======
 
 ## Beyond Stars
 <img src="image2323.png" alt="Beyond Stars" style="width: 100%; height: 300px; object-fit: cover; border-radius: 5px;">
@@ -16,7 +20,7 @@ author_profile: true
 - **Tools:** Figma (for UI/UX design)
 - **Data Source:** ESA Gaia DR3 Star Catalog
 
-#### Links
+
 <div style="display: flex; gap: 10px; margin-top: 20px;">
   <a href="https://github.com/Kargichauhan/beyondthestars" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
   <a href="https://beyondstars.space" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Website</a>
@@ -37,7 +41,7 @@ author_profile: true
 - **Machine Learning:** NLP algorithm for course recommendations
 - **Other Tools:** Email API for notifications, Data scraping from university course catalogs
 
-#### Links
+
 <div style="display: flex; gap: 10px; margin-top: 20px;">
   <a href="https://github.com/rachelS485/ISTA-498-Capstone-Group-1" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
   <a href="https://www.canva.com/design/DAGDLihHpOY/iQS9LNLp3uMDeqHJTggxOw/view" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
@@ -56,7 +60,7 @@ This project focuses on enabling deep space exploration using innovative system-
 - **Tools:** Synthetic Data Generation, Hyperparameter Tuning
 - **System Architecture:** Multi-layered inspector satellite design
 
-#### Links
+
 <div style="display: flex; gap: 10px; margin-top: 20px;">
   <a href="https://github.com/Kargichauhan/ml-main" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
   <a href="https://pdf.ac/220KBn" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
@@ -74,7 +78,7 @@ This project focuses on implementing linear regression using matrix normal equat
 - **Libraries:** NumPy, Matplotlib
 - **Tools:** Cross-Validation, Linear Regression, Polynomial Regression
 
-#### Links
+
 <div style="display: flex; gap: 10px; margin-top: 20px;">
   <a href="https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
 </div>
@@ -86,7 +90,7 @@ This project focuses on implementing linear regression using matrix normal equat
 
 Stay tuned for an exciting new project!
 
-#### Links
+
 <div style="display: flex; gap: 10px; margin-top: 20px;">
   <a href="#" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Coming Soon!</a>
 </div>
