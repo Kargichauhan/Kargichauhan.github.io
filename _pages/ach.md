@@ -8,12 +8,13 @@ author_profile: true
 {% include base_path %}
 
 ### NASA AMES
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="certi1.png" alt="NASA AMES" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Recognized as a Galactic Problem Solver</strong> for my outstanding contributions in the 2024 NASA International Space Apps Challenge.</p>
-  </div>
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+  <img src="certi1.png" alt="NASA AMES" style="width: 200px; height: auto; object-fit: cover; border-radius: 5px;">
+  <p>
+    <strong>Recognized as a Galactic Problem Solver</strong> for my outstanding contributions in the 2024 NASA International Space Apps Challenge.
+  </p>
 </div>
+
 
 ---
 
