@@ -1,16 +1,18 @@
 ---
 layout: archive
+#title: "CV"
 permalink: /blog/
-title: "Exploring ideas, insights, and stories"
 author_profile: true
+redirect_from:
 ---
 
+{% include base_path %}
 
 <div class="blog-grid">
 
   <!-- Blog Post 1 -->
   <div class="blog-card">
-    <img src="00000.png" alt="Exploring the Nexus of AI" onerror="this.src='placeholder.png';" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+    <img src="00000.png" alt="Exploring the Nexus of AI" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
     <h3><a href="https://medium.com/@kargic/exploring-the-nexus-of-ai-machine-learning-data-science-and-deep-learning-e5b2557c95b" target="_blank">Exploring the Nexus of AI, Machine Learning, Data Science, and Deep Learning</a></h3>
   </div>
 
