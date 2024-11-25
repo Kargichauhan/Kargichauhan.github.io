@@ -57,9 +57,8 @@ redirect_from:
 
 <div style="background-color: #f5f5f5; padding: 20px; text-align: center; border: 1px solid #ddd; border-radius: 5px; margin-top: 20px;">
   <p style="font-size: 18px; font-weight: bold; margin-bottom: 10px;">
-    Explore my professional journey further! Click below to download my detailed resume.
+    Behold, the map to my treasure trove of work experience. Download it by clicking the mystical icon above.
   </p>
-  <a href="Kargichauhan_CV.pdf" download style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold;">
-    Download Resume
+  <a href="Kargichauhan_CV.pdf" download style="padding: 10px 20px; background-color: #808080; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold;"> Resume
   </a>
 </div>
