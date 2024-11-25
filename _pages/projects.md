@@ -66,7 +66,8 @@ This project focuses on enabling deep space exploration using innovative system-
 
 This project focuses on implementing linear regression using matrix normal equations and performing cross-validation to assess model performance. The objective is to fit polynomial models to datasets and interpret regression outcomes. Python is used for building regression models, generating cross-validation results, and producing plots for data visualization.
 
-**Tech Stack**  
+
+*Tech Stack**  
 - **Languages:** Python  
 - **Libraries:** NumPy, Matplotlib  
 - **Tools:** Cross-Validation, Linear Regression, Polynomial Regression  
@@ -80,7 +81,3 @@ This project focuses on implementing linear regression using matrix normal equat
 ### Next Project (Tinder meets Roommate)
 ![Next Project](676767.png){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"} 
 Stay tuned for an exciting new project!
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="#" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Coming Soon!</a>
-</div>
