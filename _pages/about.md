@@ -7,19 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Kargi Chauhan**, and I’m passionate about all things **AI and machine learning**. I graduated from the **University of Arizona** with a degree in *Information Science* with an emphasis on **ML/DS**, and right now, I’m a **Machine Learning Engineer** working on some pretty exciting projects with **generative AI** at *3UM*. I get to experiment with cutting-edge tech like **Large Language Models (LLMs)**, and it’s a thrill to see how these models can transform the way we interact with technology.  
+I’m **Kargi Chauhan**, passionate about **AI and machine learning**. I graduated from the **University of Arizona** with a degree in *Information Science*, specializing in **Machine Learning (ML)** and **Data Science (DS)**. Currently, I’m a **Generative AI Engineer** at **3UM**, where I work on cutting-edge generative AI projects. Experimenting with **Large Language Models (LLMs)** and witnessing how they transform our interaction with technology excites me.  
 
-I’ve also had the chance to dive into some fascinating research; I’m currently exploring **Explainable AI**. My goal is to make AI more *understandable* and *accessible* to everyone, and I love contributing to the scientific community through my work.  
+I’ve also delved into fascinating research and am currently exploring **Explainable AI (XAI)**. My goal is to make AI accessible and comprehensible to all while contributing meaningfully to the **scientific community**.  
 
-**Focus is a funny thing.** I've realized that *less is more*, and learning happens best by doing. When I’m not coding or researching, you’ll probably find me brainstorming new project ideas—whether it’s building an app or optimizing algorithms, often something centered around **space exploration**.  
+**Focus can be a curious phenomenon.** I’ve learned that simplicity fosters productivity and that the best learning comes through doing. When I’m not coding or researching, I’m often brainstorming new project ideas—many centered around **space exploration**.  
 
-Feel free to reach out if you want to talk about **AI, space**, or anything tech-related! Let’s create something awesome together. Set up a time for a chat via [Scheduler](https://cal.com/kargichauhan)!  
+Feel free to connect if you’d like to discuss **AI**, **space**, or anything tech-related. Let’s collaborate and create something extraordinary! You can schedule a chat using my [scheduling tool](https://cal.com/kargichauhan).  
 
 ---
 
 ## Interests  
 
-I’m deeply interested in **space exploration** and **astronomy**. Whether it's discovering new ways to visualize the cosmos, I love connecting technology with the mysteries of the universe. The idea of merging **AI with space tech** is something I’m particularly drawn to. I enjoy keeping up with the latest trends in **generative AI** and finding ways to integrate them into real-world applications.  
+I am deeply intrigued by **space exploration** and the mysteries of the cosmos. I enjoy discovering innovative ways to visualize the universe and exploring the intersection of **AI and space technology**, which inspires me to build transformative solutions. I stay updated with the latest trends in **generative AI** and strive to apply these advancements to real-world challenges, bridging the gap between innovation and usability.  
 
 In my personal life, I’m passionate about living a **plant-based lifestyle**. I love experimenting with plant-based foods and am especially enthusiastic about exploring different variations of **matcha**, continuously discovering new blends and flavors that energize and inspire me.  
 
