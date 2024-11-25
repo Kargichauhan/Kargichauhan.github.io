@@ -13,9 +13,9 @@ I’ve also delved into fascinating research and am currently exploring **Explai
 
 **Focus can be a curious phenomenon.** I’ve learned that simplicity fosters productivity and that the best learning comes through doing. When I’m not coding or researching, I’m often brainstorming new project ideas—many centered around **space exploration**.  
 
-Feel free to connect if you’d like to discuss **AI**, **space**, or anything tech-related. Let’s collaborate and create something extraordinary! You can schedule a chat using my [scheduling tool](https://cal.com/kargichauhan).  
+Feel free to connect if you’d like to discuss **AI**, **space**, or anything tech-related. Let’s collaborate and create something extraordinary! You can schedule a chat using my [scheduler](https://cal.com/kargichauhan).  
 
----
+
 
 ## Interests  
 
