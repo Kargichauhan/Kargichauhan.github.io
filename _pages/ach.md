@@ -6,83 +6,72 @@ author_profile: true
 
 {% include base_path %}
 
-### Beyond Stars
-![Beyond Stars](image2323.jpg){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
+### NASA AMES
+![NASA AMES](certi1.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
 
-**Beyond Stars** is an interactive web app that lets users explore the night sky as seen from exoplanets. Using data from NASA's Gaia star catalog, the app provides a unique 3D view of stars and constellations from various exoplanetary perspectives. It also features an educational gaming mode to engage users in discovering celestial objects.
-
-**Tech Stack**  
-- **Languages:** Python, JavaScript, HTML/CSS  
-- **Frameworks & Libraries:** Three.js, WebGL  
-- **Tools:** Figma (for UI/UX design)  
-- **Data Source:** ESA Gaia DR3 Star Catalog  
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/Kargichauhan/beyondthestars" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
-  <a href="https://beyondstars.space" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Website</a>
-  <a href="https://www.canva.com/design/DAGSyNAtv2Q/10FhJ-Qr4NBaI6PKU76vDg/view" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
-</div>
+**NASA AMES**  
+Recognized as a Galactic Problem Solver for my outstanding contributions in the 2024 NASA International Space Apps Challenge.
 
 ---
 
-### UA Course Compass
-![UA Course Compass](imaage334343.png){: style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 5px;"}  
+### Undergrad Research
+![Undergrad Research](CERTI2.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
 
-**UA Course Compass** is a web-based software application designed to help students pursuing a Bachelor of Science in Information Science at the University of Arizona effectively manage their 4-year course plan. The platform provides personalized course recommendations, a four-year planning tool, interest surveys, and email reminders to streamline the academic planning process, leveraging machine learning and data scraping technologies to enhance the student experience.
-
-**Tech Stack**  
-- **Languages:** HTML, CSS, JavaScript  
-- **Frameworks & Libraries:** Node.js, Selenium  
-- **Database:** PostgreSQL  
-- **Machine Learning:** NLP algorithm for course recommendations  
-- **Other Tools:** Email API for notifications, Data scraping from university course catalogs  
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/rachelS485/ISTA-498-Capstone-Group-1" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
-  <a href="https://www.canva.com/design/DAGDLihHpOY/iQS9LNLp3uMDeqHJTggxOw/view" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
-</div>
+**Undergrad Research**  
+Presented my project "From Mines to Minds" at the UR Inspiration Undergraduate Research Conference, focusing on immersive learning in mining engineering education.
 
 ---
 
-### Autonomous Deep Space Exploration
-![Autonomous Deep Space Exploration](image55.png){: style="width: 100%; max-height: 50px; object-fit: cover; border-radius: 5px;"}  
+### Alpha Sigma Alpha
+![Alpha Sigma Alpha](piccc.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
 
-This project focuses on enabling deep space exploration using innovative system-of-systems architecture with small spacecraft inspectors. Leveraging machine learning for real-time decision-making, the project addresses the challenges of long-duration space missions, including navigation and communication limitations in harsh environments.
-
-**Tech Stack**  
-- **Languages:** Python  
-- **Frameworks:** Machine Learning Algorithms for autonomous operation  
-- **Tools:** Synthetic Data Generation, Hyperparameter Tuning  
-- **System Architecture:** Multi-layered inspector satellite design  
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/Kargichauhan/ml-main" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
-  <a href="https://pdf.ac/220KBn" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
-</div>
+**Alpha Sigma Alpha**  
+Member of Alpha Sigma Alpha since January 2023, actively contributing to leadership, sisterhood, and community service at the University of Arizona.
 
 ---
 
-### Linear Regression and Cross Validation
-![Linear Regression and Cross Validation](img44.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
+### Google Developer Student Club
+![Google Developer Student Club](Unknownttt.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
 
-This project focuses on implementing linear regression using matrix normal equations and performing cross-validation to assess model performance. The objective is to fit polynomial models to datasets and interpret regression outcomes. Python is used for building regression models, generating cross-validation results, and producing plots for data visualization.
-
-**Tech Stack**  
-- **Languages:** Python  
-- **Libraries:** NumPy, Matplotlib  
-- **Tools:** Cross-Validation, Linear Regression, Polynomial Regression  
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
-</div>
+**Google Developer Student Club**  
+As part of the e-board, I played a key role in organizing events, leading workshops, and fostering collaboration using Google technologies.
 
 ---
 
-### Next Project (Tinder meets Roommate)
-![Next Project](676767.png){: style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 5px;"}  
+### Dean's List
+![Dean's List](Unknown55555.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
 
-Stay tuned for an exciting new project!
+**Dean's List**  
+I was honored to be on the Dean's List for four consecutive years, demonstrating my commitment to academic excellence.
 
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-  <a href="#" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Coming Soon!</a>
-</div>
+---
+
+### Scholarship
+![Scholarship](66666.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
+
+**Scholarship**  
+I received the Global Wildcat Scholarship, covering 100% of my tuition. I also applied for the notable Galileo Circle Scholars program.
+
+---
+
+### The International Award for Young People
+![The International Award](3333.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
+
+**The International Award for Young People**  
+A global program fostering personal growth and leadership. As a Gold Award recipient, I demonstrated dedication and community impact.
+
+---
+
+### TOI Women Soccer Lead
+![TOI Women Soccer Lead](U5555.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
+
+**TOI Women Soccer Lead**  
+For three years, I had the privilege of leading and playing alongside multiple teams at the national and international levels. My journey as a player has been filled with thrilling experiences, from intense matches to memorable victories.
+
+---
+
+### Rewrite the Code
+![Rewrite the Code](11111.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
+
+**Rewrite the Code**  
+I have been part of the community team for three years, supporting women in tech and fostering an inclusive environment.
