@@ -21,7 +21,7 @@ repository               : "Kargichauhan/Kargichauhan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pic1.jpg"
+  avatar           : "pic1.png"
   name             : "Kargi Chauhan"
   pronouns         : # example: "she/her"  
   bio              : "ML Engineer @ 3UM"
