@@ -1,12 +1,15 @@
 ---
 layout: archive
+#title: "CV"
 permalink: /researchpapers/
 author_profile: true
 redirect_from:
+
 ---
 
-Publications
----
+{% include base_path %}
+
+
 
 ## Large Language Models and XAI
 - **Publication:** Kargi Chauhan, Vishnu Pendyala   

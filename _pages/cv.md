@@ -23,7 +23,7 @@ Work Experience
   - Focused on Explainable AI (XAI) to enhance transparency in complex AI systems.  
   - Bridging theory and practical AI applications for real-world solutions.  
 
-* **Software Engineer - ML, LLMs, XAI** (Aug 2024 - Present)  
+* **Software Engineer - ML, LLMs, XAI** (April 2024 - Present)  
   *3UM*  
   - Improved LLM accuracy by 25% through fine-tuning with PyTorch and Huggingface.  
   - Optimized performance using KV cache and Rotary Embeddings.  

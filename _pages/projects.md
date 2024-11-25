@@ -1,16 +1,16 @@
 ---
 layout: archive
-title: "hhhhhhh"
+#title: "hhhhhhh"
 permalink: /projects/
 author_profile: true
 ---
 
 {% include base_path %}
 
-======
+
 
 ## Beyond Stars
-<img src="image2323.png" alt="Beyond Stars" style="width: 100%; height: 300px; object-fit: cover; border-radius: 5px;">
+<img src="image2323.jpg" style="width: 100%; height: 300px; object-fit: cover; border-radius: 5px;">
 
 **Beyond Stars** is an interactive web app that lets users explore the night sky as seen from exoplanets. Using data from NASA's Gaia star catalog, the app provides a unique 3D view of stars and constellations from various exoplanetary perspectives. It also features an educational gaming mode to engage users in discovering celestial objects.
 
