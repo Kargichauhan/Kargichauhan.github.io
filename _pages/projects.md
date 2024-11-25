@@ -26,7 +26,7 @@ author_profile: true
 ---
 
 ### UA Course Compass
-![UA Course Compass](imaage334343.png){: style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 5px;"}  
+![UA Course Compass](imaage334343.jpg){: style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 5px;"}  
 
 **UA Course Compass** is a web-based software application designed to help students pursuing a Bachelor of Science in Information Science at the University of Arizona effectively manage their 4-year course plan. The platform provides personalized course recommendations, a four-year planning tool, interest surveys, and email reminders to streamline the academic planning process, leveraging machine learning and data scraping technologies to enhance the student experience.
 
