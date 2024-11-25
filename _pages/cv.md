@@ -96,3 +96,4 @@ Service and Leadership
   <p>Behold, the map to my treasure trove of work experience. Download it by clicking the mystical icon below</p>
   <a href="Kargichauhan_CV.pdf" download style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 16px;">Resume</a>
 </div>
+
