@@ -45,7 +45,7 @@ author_profile: true
 ---
 
 ### Autonomous Deep Space Exploration
-![Autonomous Deep Space Exploration](image55.png){: style="width: 100%; max-height: 50px; object-fit: cover; border-radius: 5px;"}  
+![Autonomous Deep Space Exploration](image55.png){: style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 5px;"}  
 
 This project focuses on enabling deep space exploration using innovative system-of-systems architecture with small spacecraft inspectors. Leveraging machine learning for real-time decision-making, the project addresses the challenges of long-duration space missions, including navigation and communication limitations in harsh environments.
 
