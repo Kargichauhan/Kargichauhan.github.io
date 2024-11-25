@@ -21,10 +21,10 @@ repository               : "Kargichauhan/Kargichauhan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "kkkk.png"
+  avatar           : "profile.png"
   name             : "Kargi Chauhan"
   pronouns         : # example: "she/her"  
-  bio              : "ML Engineer @ 3UM"
+  bio              : "Gen AI Engineer @ 3UM"
   location         : "Sunnyvale, California"
   employer         : 3UM
   uri              : # URL
