@@ -1,99 +1,88 @@
 ---
 layout: archive
 permalink: /ach/
-#title: "ach"
 author_profile: true
 ---
 
 {% include base_path %}
 
-### NASA AMES
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="certi1.png" alt="NASA AMES" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Recognized as a Galactic Problem Solver</strong> for my outstanding contributions in the 2024 NASA International Space Apps Challenge.</p>
-  </div>
-</div>
+### Beyond Stars
+![Beyond Stars](image2323.jpg){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
 
+**Beyond Stars** is an interactive web app that lets users explore the night sky as seen from exoplanets. Using data from NASA's Gaia star catalog, the app provides a unique 3D view of stars and constellations from various exoplanetary perspectives. It also features an educational gaming mode to engage users in discovering celestial objects.
 
+**Tech Stack**  
+- **Languages:** Python, JavaScript, HTML/CSS  
+- **Frameworks & Libraries:** Three.js, WebGL  
+- **Tools:** Figma (for UI/UX design)  
+- **Data Source:** ESA Gaia DR3 Star Catalog  
 
-
----
-
-### Undergrad Research
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="CERTI2.png" alt="Undergrad Research" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Presented my project "From Mines to Minds"</strong> at the UR Inspiration Undergraduate Research Conference, focusing on immersive learning in mining engineering education.</p>
-  </div>
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://github.com/Kargichauhan/beyondthestars" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://beyondstars.space" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Website</a>
+  <a href="https://www.canva.com/design/DAGSyNAtv2Q/10FhJ-Qr4NBaI6PKU76vDg/view" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
 </div>
 
 ---
 
-### Alpha Sigma Alpha
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="piccc.png" alt="Alpha Sigma Alpha" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Member of Alpha Sigma Alpha since January 2023</strong>, actively contributing to leadership, sisterhood, and community service at the University of Arizona.</p>
-  </div>
+### UA Course Compass
+![UA Course Compass](imaage334343.png){: style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 5px;"}  
+
+**UA Course Compass** is a web-based software application designed to help students pursuing a Bachelor of Science in Information Science at the University of Arizona effectively manage their 4-year course plan. The platform provides personalized course recommendations, a four-year planning tool, interest surveys, and email reminders to streamline the academic planning process, leveraging machine learning and data scraping technologies to enhance the student experience.
+
+**Tech Stack**  
+- **Languages:** HTML, CSS, JavaScript  
+- **Frameworks & Libraries:** Node.js, Selenium  
+- **Database:** PostgreSQL  
+- **Machine Learning:** NLP algorithm for course recommendations  
+- **Other Tools:** Email API for notifications, Data scraping from university course catalogs  
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://github.com/rachelS485/ISTA-498-Capstone-Group-1" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://www.canva.com/design/DAGDLihHpOY/iQS9LNLp3uMDeqHJTggxOw/view" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
 </div>
 
 ---
 
-### Google Developer Student Club
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="Unknownttt.png" alt="Google Developer Student Club" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Played a key role as part of the e-board</strong>, organizing events, leading workshops, and fostering collaboration using Google technologies.</p>
-  </div>
+### Autonomous Deep Space Exploration
+![Autonomous Deep Space Exploration](image55.png){: style="width: 100%; max-height: 50px; object-fit: cover; border-radius: 5px;"}  
+
+This project focuses on enabling deep space exploration using innovative system-of-systems architecture with small spacecraft inspectors. Leveraging machine learning for real-time decision-making, the project addresses the challenges of long-duration space missions, including navigation and communication limitations in harsh environments.
+
+**Tech Stack**  
+- **Languages:** Python  
+- **Frameworks:** Machine Learning Algorithms for autonomous operation  
+- **Tools:** Synthetic Data Generation, Hyperparameter Tuning  
+- **System Architecture:** Multi-layered inspector satellite design  
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://github.com/Kargichauhan/ml-main" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://pdf.ac/220KBn" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Demo</a>
 </div>
 
 ---
 
-### Dean's List
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="Unknown55555.png" alt="Dean's List" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Honored to be on the Dean's List</strong> for four consecutive years, demonstrating my commitment to academic excellence.</p>
-  </div>
+### Linear Regression and Cross Validation
+![Linear Regression and Cross Validation](img44.png){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
+
+This project focuses on implementing linear regression using matrix normal equations and performing cross-validation to assess model performance. The objective is to fit polynomial models to datasets and interpret regression outcomes. Python is used for building regression models, generating cross-validation results, and producing plots for data visualization.
+
+**Tech Stack**  
+- **Languages:** Python  
+- **Libraries:** NumPy, Matplotlib  
+- **Tools:** Cross-Validation, Linear Regression, Polynomial Regression  
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
 </div>
 
 ---
 
-### Scholarship
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="66666.png" alt="Scholarship" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Recipient of the Global Wildcat Scholarship</strong>, covering 100% of my tuition. Also applied for the notable Galileo Circle Scholars program.</p>
-  </div>
-</div>
+### Next Project (Tinder meets Roommate)
+![Next Project](676767.png){: style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 5px;"}  
 
----
+Stay tuned for an exciting new project!
 
-### The International Award for Young People
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="3333.png" alt="The International Award" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Gold Award recipient in a global program fostering personal growth and leadership</strong>, demonstrating dedication and community impact.</p>
-  </div>
-</div>
-
----
-
-### TOI Women Soccer Lead
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="U5555.png" alt="TOI Women Soccer Lead" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Led multiple teams at the national and international levels</strong> for three years, excelling in matches and achieving memorable victories.</p>
-  </div>
-</div>
-
----
-
-### Rewrite the Code
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; max-width: 800px;">
-  <img src="11111.png" alt="Rewrite the Code" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
-  <div>
-    <p><strong>Active community member for three years</strong>, supporting women in tech and fostering an inclusive environment.</p>
-  </div>
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="#" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Coming Soon!</a>
 </div>
