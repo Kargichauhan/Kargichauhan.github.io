@@ -7,7 +7,7 @@ redirect_from:
 
 {% include base_path %}
 
-# Blog Posts ✨
+
 
 ## **Exploring the Nexus of AI, Machine Learning, Data Science, and Deep Learning**
  *"Dive into the world of AI and discover how data science and deep learning interconnect to shape innovation."*  
