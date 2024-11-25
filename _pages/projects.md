@@ -7,8 +7,7 @@ author_profile: true
 {% include base_path %}
 
 ### Beyond Stars
-![Beyond Stars](image2323.jpg){: style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 5px;"}  
-
+![Beyond Stars](image2323.jpg){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"}  
 **Beyond Stars** is an interactive web app that lets users explore the night sky as seen from exoplanets. Using data from NASA's Gaia star catalog, the app provides a unique 3D view of stars and constellations from various exoplanetary perspectives. It also features an educational gaming mode to engage users in discovering celestial objects.
 
 **Tech Stack**  
