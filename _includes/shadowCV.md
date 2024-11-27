@@ -1,9 +1,11 @@
 ---
 layout: archive
-title: "Shadow CV"
-permalink: /ShadowCV/
+permalink: /shadowCV/
 author_profile: true
+redirect_from:
 ---
+
+{% include base_path %}
 
 {% include base_path %}
 
