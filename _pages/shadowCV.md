@@ -11,9 +11,11 @@ redirect_from:
 
 
 
-# Shadow CV
 
-Inspired by [Melanie Stefan’s](https://www.nature.com/articles/nj7322-467a) article and others, this is my Shadow CV, a record of my failures, rejections, and setbacks. It reminds me that growth often comes from perseverance through challenges.
+
+Inspired by [Melanie Stefan’s](https://www.nature.com/articles/nj7322-467a) article and others, this is my Shadow CV, a record of my failures, rejections, and setbacks.
+
+It reminds me that growth often comes from perseverance through challenges. 
 
 ---
 
