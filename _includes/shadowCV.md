@@ -2,7 +2,9 @@
 layout: archive
 permalink: /shadowCV/
 author_profile: true
-redirect_from:
+redirect_from: 
+  
+  - /shadowcv.html
 ---
 
 {% include base_path %}
