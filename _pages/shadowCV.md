@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /shadowCV/
+permalink: /shadowcv/
 author_profile: true
 redirect_from: 
   
