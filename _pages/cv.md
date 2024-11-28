@@ -10,7 +10,7 @@ redirect_from:
 
 # Education  
 * **B.S. in Information and Data Science**, Minor in Game Design and Development  
-  University of Arizona, 2020 - 2024, **GPA:** 3.9 / 4.0  
+  University of Arizona, 2020 - 2024, 
 * **International Baccalaureate**, Navrachana International School, Vadodara, India  
 
 ---
