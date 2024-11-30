@@ -1,11 +1,12 @@
 ---
 permalink: /
-title: "About Me "
+#title: "About Me "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+## About Me
 
 I’m **Kargi Chauhan**, passionate about **AI and machine learning**. I graduated from the **University of Arizona** with a degree in *Information Science*, specializing in **Machine Learning (ML)** and **Data Science (DS)**. Currently, I’m a **Generative AI Engineer** at **3UM**, where I work on cutting-edge generative AI projects. Experimenting with **Large Language Models (LLMs)** and witnessing how they transform our interaction with technology excites me.  
 
