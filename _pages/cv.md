@@ -34,7 +34,54 @@ redirect_from:
 - Managed multi-modal neural network training and large-scale data processing.  
 - Contributed to the NASA Johnson Space Center’s pose estimation challenge.  
 
-... *(Continue listing work experience in the same format)* ...
+### Data Science Researcher - Mining Engineering (Feb 2023 - Apr 2024)  
+*St. Xavier Mine Project*  
+- Designed a virtual St. Xavier Mine, enhancing simulations with advanced AI and ML algorithms.  
+- Optimized A* and Dijkstra pathfinding, reducing execution times by 23%.  
+- Improved simulation responsiveness and efficiency in real-time environments.  
+
+### HCI Researcher (Apr 2024 - Sep 2024)  
+*NJIT Ying Wu College of Computing*  
+- Led research on ethical AI in aging, focusing on fairness, transparency, and inclusivity.  
+- Conducted extensive reviews and formulated research questions for aging-related AI applications.  
+- Collaborated with Professor Alisha Pradhan to lead initiatives in AI for older adults.  
+
+### Data Science Researcher - Health Science/Medicine (Feb 2023 - Feb 2024)  
+*Cyberlearning for Medicine*  
+- Explored Cyberlearning, focusing on co-robotic teachable agents for immersive education.  
+- Developed virtual agents using VR, creating engaging learning experiences for medical students.  
+- Collaborated with Dr. Burleson on innovative educational technology research.  
+
+### Software Engineer Researcher - Aerospace Engineering (Jan 2023 - Feb 2024)  
+*Virtual Aerospace Lab*  
+- Created a virtual lab simulating aerospace scenarios using ML and AI techniques.  
+- Applied advanced simulation methods to optimize aerospace designs and predict outcomes.  
+- Utilized MATLAB and ML algorithms to enhance decision-making and system performance.  
+
+### Software Engineer Researcher - Industrial Engineering (Feb 2022 - Jan 2023)  
+*MADE Lab*  
+- Optimized supply chain networks through innovative algorithms and models.  
+- Improved production efficiency by applying lean manufacturing and process improvements.  
+- Analyzed human-machine interactions to enhance occupational safety and efficiency.  
+
+### Software Engineer Researcher - Computer Science (Feb 2022 - Jan 2023)  
+*Penn State University*  
+- Specialized in AI and ML algorithms, with a strong focus on computer vision and pattern recognition applications.  
+- Collaborated with Dr. Daniel and a research team to analyze large datasets, applying advanced data processing techniques for extracting insights and enhancing algorithm performance.  
+- Co-developed novel AI and ML algorithms, improving accuracy and efficiency in image recognition and object detection through extensive experimentation.  
+
+### Software Engineer Intern (Jun 2022 - Aug 2022)  
+*Tech Core*  
+- Developed software applications and streamlined processes using advanced programming languages and frameworks.  
+- Collaborated with cross-functional teams to integrate technology, boosting efficiency and productivity across the organization.  
+- Employed data analysis tools to extract insights that informed data-driven decisions, contributing to the implementation of AI and ML technologies to optimize business operations.  
+
+### Software Engineer Intern (Jun 2021 - Aug 2021)  
+*GirlScript Summer of Code*  
+- Developed and integrated 3D models for visual rendering using Three.js and Cesium.  
+- Utilized Docker for scalable deployment of project instances, contributing to efficient workflows.  
+- Delivered comprehensive documentation, ensuring smooth project handoff and collaboration.  
+
 
 ---
 
