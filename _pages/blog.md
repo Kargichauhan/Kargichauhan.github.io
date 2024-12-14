@@ -52,5 +52,5 @@ redirect_from:
 ---
 
 ## **Work In Progress**
- *"Stay tuned for more insightful pieces as we dive deeper into exciting research and discoveries."*  
-**[Read More on Substack →](https://kargichauhan.substack.com/publish/home?utm_source=substack)**
+ *"List 100"*  
+

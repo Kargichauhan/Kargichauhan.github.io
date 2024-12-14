@@ -26,6 +26,9 @@ It reminds me that growth often comes from perseverance through challenges.
 
 
 
+**December 2024** 
+- rejected from a startup i was really interested in working
+
 **November 2024** 
 - rejected from midsize reputated company after TPI
 
