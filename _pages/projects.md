@@ -76,6 +76,24 @@ This project focuses on implementing linear regression using matrix normal equat
   <a href="https://github.com/Kargichauhan/Linear-Regression-and-Cross-Validation-Implementation-for-Polynomial-Model-Fitting" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
 </div>
 
+### Agentic Customer Support - Automating Customer Service Workflows  
+![Agentic Customer Support](output.png){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"}  
+
+This project focuses on building an intelligent customer support system that leverages LangGraph and OpenAI’s GPT API. The system automates query categorization, sentiment analysis, and response generation, while dynamically visualizing workflows for improved debugging and clarity. It includes mechanisms for escalating unresolved issues to human agents, ensuring a human-centric approach to customer service.
+
+**Tech Stack**  
+- **Languages:** Python  
+- **Libraries:** LangGraph  
+- **APIs:** OpenAI GPT API  
+- **Tools:** Workflow Visualization, Sentiment Analysis  
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://github.com/Kargichauhan/Agentic_customer_support" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+</div>  
+
+
+
+
 ---
 
 ### Next Project (Tinder meets Roommate)

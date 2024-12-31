@@ -47,7 +47,16 @@ redirect_from:
 
 ## **Get Ready to Unlock the AI Secrets, One Byte at a Time**
  *"Break down the secrets of artificial intelligence and its incredible potential in our modern world."*  
-**[Read More on Medium →](https://medium.com/@kargic/get-ready-to-unlock-the-ai-secrets-one-byte-at-a-time-3aa7a55683b)**  
+**[Read More on Medium →](https://medium.com/@kargic/get-ready-to-unlock-the-ai-secrets-one-byte-at-a-time-3aa7a55683b)** 
+
+
+---
+
+## **Teaching Machines to Think - Agentic AI**
+*"Intelligent agent leveraged using LangGraph to automate customer support workflows while visualizing them dynamically. "*  
+**[Read More on Medium →](https://kargic.medium.com/teaching-machines-to-think-bbc9dfa603a5)** 
+
+
 
 ---
 
