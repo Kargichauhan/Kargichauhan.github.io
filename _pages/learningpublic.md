@@ -7,7 +7,7 @@ redirect_from:
 
 {% include base_path %}
 
-# Learning in Public 📚✨
+
 
 A dedicated space to share my journey of learning, documenting courses, and taking notes :)
 
