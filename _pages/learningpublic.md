@@ -14,12 +14,10 @@ A dedicated space to share my journey of learning, documenting courses, and taki
 ---
 
 ## Current Course: Machine Learning Specialization  
-**#BreakIntoAI with Machine Learning Specialization**  
-Master fundamental AI concepts and develop practical machine learning skills in this beginner-friendly, 3-course program by AI visionary **Andrew Ng**.  
+
 
 ### Course Details  
-- **Instructors**: Andrew Ng, Geoff Ladwig, Aarti Bagul (+3 more)  
-- **Taught by**: Top Instructor Andrew Ng  
+- **Taught by**: Instructor Andrew Ng  
 - **Platform**: [Go To Course](https://www.coursera.org/specializations/machine-learning-introduction)
 
 ### What I'm Learning:
@@ -32,31 +30,28 @@ Master fundamental AI concepts and develop practical machine learning skills in 
 ---
 
 ### My Notes  
-#### Course 1: **Supervised Machine Learning: Regression and Classification**  
+### Course 1: **Supervised Machine Learning: Regression and Classification**  
 - Key Concepts:  
   - Supervised vs. Unsupervised Learning  
   - Applications of Machine Learning  
   - Importance of Data Quality  
-- Notes: 
+- Notes: coming soon
 
-#### Course 2: **Advanced Learning Algorithms**  
+### Course 2: **Advanced Learning Algorithms**  
 - Key Concepts:  
   - Hypothesis Function: \( h_\theta(x) = \theta_0 + \theta_1x \)  
   - Cost Function: Mean Squared Error (MSE)  
   - Gradient Descent Algorithm
-- Notes: 
+- Notes: WIP
 
-#### Course 2: **Advanced Learning Algorithms**  
-- Key Concepts:  
-  - Hypothesis Function: \( h_\theta(x) = \theta_0 + \theta_1x \)  
-  - Cost Function: Mean Squared Error (MSE)  
-  - Gradient Descent Algorithm
-- Notes: 
+### Course 2: **Advanced Learning Algorithms**  
+- Key Concepts:  WIP
+- Notes: WIP
 
 
-#### Course 2: **Unsupervised Learning, Recommenders, Reinforcement Learning**
-- Key Concepts: 
-- Notes: 
+### Course 3: **Unsupervised Learning, Recommenders, Reinforcement Learning**
+- Key Concepts: WIP
+- Notes: WIP
 
 > _"AI is the new electricity."_ – Andrew Ng  
 
