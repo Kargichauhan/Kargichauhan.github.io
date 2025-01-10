@@ -17,7 +17,7 @@ redirect_from:
 
 ## **Investigation on the Relationship Between Hollywood Singer’s Age and Their Followers List**
  *"Analyze the curious correlation between age and fan following in the glamorous world of Hollywood singers."*  
-**[Read More  →](https://docs.google.com/document/d/1Euog1x3nZXwHHhn5WE48ds4VND5WnNo5/edit)**  
+**[Read More  →](https://docs.google.com/document/d/e/2PACX-1vQSGHj8xfmbvJkzbDDBrulebjpyTZ3F6yV-2VvP0YBeBzbHVhkrU--4rJ5IAmrpuQ/pub)**  
 
 ---
 
@@ -55,7 +55,6 @@ redirect_from:
 ## **Teaching Machines to Think - Agentic AI**
 *"Intelligent agent leveraged using LangGraph to automate customer support workflows while visualizing them dynamically. "*  
 **[Read More on Medium →](https://kargic.medium.com/teaching-machines-to-think-bbc9dfa603a5)** 
-
 
 
 ---
