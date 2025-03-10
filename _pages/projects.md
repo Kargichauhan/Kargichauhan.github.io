@@ -93,9 +93,41 @@ This project focuses on building an intelligent customer support system that lev
   <a href="https://github.com/Kargichauhan/Agentic_customer_support" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
 </div>  
 
+### Mental Health Chatbot for Counselors – AI-Driven Mental Health Support  
+![Mental Health Chatbot](mentalhealth.png){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"}
+
+This project focuses on fine-tuning a LLaMA-3 model for mental health applications using [Unsloth](https://unsloth.ai), an optimized framework for training large language models efficiently. It implements [QLoRA](https://github.com/artidoro/qlora) for memory-efficient training and is deployed on Hugging Face for real-time interaction using [HumeAI](https://www.hume.ai). The system provides counselors with a reliable, empathetic tool to support mental health care.
+
+**Tech Stack**  
+- **Languages:** Python  
+- **Libraries:** QLoRA, Unsloth  
+- **APIs:** HumeAI  
+- **Tools:** Hugging Face  
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://github.com/Kargichauhan/mental-health-app" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
+  <a href="https://mentalhealthcare-yceuaojkfxaf9u4vxlgbdk.streamlit.app" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Try here!</a>
+</div>
+
+### OutfitEquation – Agent-Based Fashion Recommendation System  
+![OutfitEquation](clothes.png){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"}
+
+This project focuses on developing an agent-based fashion recommendation system that leverages the [Polyvore](https://huggingface.co/datasets/Marqo/polyvore) dataset and the [PinAI API](https://www.pinai.io) for data retrieval. It delivers personalized outfit suggestions based on skin tone, budget, and past inspirations, offering real-time style-based recommendations for users.
+
+**Tech Stack**  
+- **Languages:** Python  
+- **Datasets:** Polyvore  
+- **APIs:** PinAI API  
+- **Tools:** Agent-based Modeling  
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://github.com/Kargichauhan/Wadrobe_/tree/main" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Code</a>
+  <a href="https://wardroberecommender-lnq9k62gst4yh8hzv7xgy3.streamlit.app" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">Try here!</a>
+</div>
+
 
 ---
 
-### Next Project (Tinder meets Roommate)
+### Next Project
 ![Next Project](676767.png){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"} 
 Stay tuned for an exciting new project!

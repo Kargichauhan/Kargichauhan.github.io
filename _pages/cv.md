@@ -107,6 +107,7 @@ redirect_from:
   <p style="font-size: 18px; font-weight: bold; margin-bottom: 10px;">
     Behold, the map to my treasure trove of work experience. Download it by clicking the mystical icon above.
   </p>
+  
   <a href="Resume.pdf" download style="padding: 10px 20px; background-color: #808080; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold;"> Resume
   </a>
 </div>
