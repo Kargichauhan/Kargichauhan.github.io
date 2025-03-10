@@ -10,6 +10,10 @@ author_profile: true
 ![Beyond Stars](image2323.jpg){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"}  
 **Beyond Stars** is an interactive web app that lets users explore the night sky as seen from exoplanets. Using data from NASA's Gaia star catalog, the app provides a unique 3D view of stars and constellations from various exoplanetary perspectives. It also features an educational gaming mode to engage users in discovering celestial objects.
 
+
+<br><br>
+
+
 **Tech Stack**  
 - **Languages:** Python, JavaScript, HTML/CSS  
 - **Frameworks & Libraries:** Three.js, WebGL  
@@ -28,6 +32,8 @@ author_profile: true
 ![UA Course Compass](imaage334343.jpg){: style="float: left; width: 200px; height: 200px; object-fit: cover; border-radius: 5px; margin-right: 20px;"}  
 
 **UA Course Compass** is a web-based software application designed to help students pursuing a Bachelor of Science in Information Science at the University of Arizona effectively manage their 4-year course plan. The platform provides personalized course recommendations, a four-year planning tool, interest surveys, and email reminders to streamline the academic planning process, leveraging machine learning and data scraping technologies to enhance the student experience.
+
+<br><br>
 
 **Tech Stack**  
 - **Languages:** HTML, CSS, JavaScript  
@@ -48,16 +54,14 @@ author_profile: true
 
 This project focuses on enabling deep space exploration using innovative system-of-systems architecture with small spacecraft inspectors. Leveraging machine learning for real-time decision-making, the project addresses the challenges of long-duration space missions, including navigation and communication limitations in harsh environments.
 
-<!-- Tech Stack -->
-    <div style="margin-top: 15px;">
-      <strong>Tech Stack</strong>
-      <ul style="margin: 5px 0 0 20px; padding: 0;">
-        <li><strong>Languages:</strong> Python</li>
-        <li><strong>Frameworks:</strong> Machine Learning Algorithms for autonomous operation</li>
-        <li><strong>Tools:</strong> Synthetic Data Generation, Hyperparameter Tuning</li>
-        <li><strong>System Architecture:</strong> Multi-layered inspector satellite design</li>
-      </ul>
-    </div>
+
+
+
+**Tech Stack**  
+- **Languages:** Python  
+- **Frameworks:** Machine Learning Algorithms for autonomous operation  
+- **Tools:** Synthetic Data Generation, Hyperparameter Tuning  
+- **System Architecture:** Multi-layered inspector satellite design  
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
   <a href="https://github.com/Kargichauhan/ml-main" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
