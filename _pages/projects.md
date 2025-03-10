@@ -48,11 +48,16 @@ author_profile: true
 
 This project focuses on enabling deep space exploration using innovative system-of-systems architecture with small spacecraft inspectors. Leveraging machine learning for real-time decision-making, the project addresses the challenges of long-duration space missions, including navigation and communication limitations in harsh environments.
 
-**Tech Stack**  
-- **Languages:** Python  
-- **Frameworks:** Machine Learning Algorithms for autonomous operation  
-- **Tools:** Synthetic Data Generation, Hyperparameter Tuning  
-- **System Architecture:** Multi-layered inspector satellite design  
+<!-- Tech Stack -->
+    <div style="margin-top: 15px;">
+      <strong>Tech Stack</strong>
+      <ul style="margin: 5px 0 0 20px; padding: 0;">
+        <li><strong>Languages:</strong> Python</li>
+        <li><strong>Frameworks:</strong> Machine Learning Algorithms for autonomous operation</li>
+        <li><strong>Tools:</strong> Synthetic Data Generation, Hyperparameter Tuning</li>
+        <li><strong>System Architecture:</strong> Multi-layered inspector satellite design</li>
+      </ul>
+    </div>
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
   <a href="https://github.com/Kargichauhan/ml-main" style="padding: 10px 20px; background-color: #7d8085; color: white; text-decoration: none; border-radius: 5px; text-align: center; font-weight: bold; flex: 1;">GitHub</a>
