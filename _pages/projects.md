@@ -55,8 +55,6 @@ author_profile: true
 This project focuses on enabling deep space exploration using innovative system-of-systems architecture with small spacecraft inspectors. Leveraging machine learning for real-time decision-making, the project addresses the challenges of long-duration space missions, including navigation and communication limitations in harsh environments.
 
 
-
-
 **Tech Stack**  
 - **Languages:** Python  
 - **Frameworks:** Machine Learning Algorithms for autonomous operation  
