@@ -10,7 +10,7 @@ redirect_from:
 
 I’m **Kargi Chauhan**, passionate about **AI and machine learning**. I graduated from the **University of Arizona** with a degree in *Information Science*, specializing in **Machine Learning (ML)** and **Data Science (DS)**. Currently, I’m a **Generative AI Engineer** at **3UM**, where I work on cutting-edge generative AI projects. Experimenting with **Large Language Models (LLMs)** and witnessing how they transform our interaction with technology excites me.  
 
-I’ve also delved into fascinating research and am currently exploring **Explainable AI (XAI)**. My goal is to make AI accessible and comprehensible to all while contributing meaningfully to the **scientific community**.  
+I’ve also delved into fascinating research and am currently exploring **Explainable AI (XAI) and neurosymbolic reasoning **. My goal is to make AI accessible and comprehensible to all while contributing meaningfully to the **scientific community**.  
 
 **Focus can be a curious phenomenon.** I’ve learned that simplicity fosters productivity and that the best learning comes through doing. When I’m not coding or researching, I’m often brainstorming new project ideas—many centered around **space exploration**.  
 
@@ -25,3 +25,6 @@ I am deeply intrigued by **space exploration** and the mysteries of the cosmos. 
 In my personal life, I’m passionate about living a **plant-based lifestyle**. I love experimenting with plant-based foods and am especially enthusiastic about exploring different variations of **matcha**, continuously discovering new blends and flavors that energize and inspire me.  
 
 Outside of these, I’m always brainstorming **creative solutions** to challenging problems, exploring **sustainability-focused innovations**, and staying curious about emerging fields in **science and technology**.  
+
+ In my free time, I maintain my learning journey blog at  
+[Kargi's Notebook](https://kargichauhan.github.io/kargisnotebook.github.io/)
