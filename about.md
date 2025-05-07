@@ -26,5 +26,4 @@ In my personal life, I’m passionate about living a **plant-based lifestyle**. 
 
 Outside of these, I’m always brainstorming **creative solutions** to challenging problems, exploring **sustainability-focused innovations**, and staying curious about emerging fields in **science and technology**.  
 
- In my free time, I maintain my learning journey blog at  
-[Kargi's Notebook](https://kargichauhan.github.io/kargisnotebook.github.io/)
+ In my free time, I maintain my learning journey blog at [Kargi's Notebook](https://kargichauhan.github.io/kargisnotebook.github.io/)
