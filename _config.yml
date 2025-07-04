@@ -24,9 +24,9 @@ author:
   avatar           : "K.png"
   name             : "Kargi Chauhan"
   pronouns         : # example: "she/her"  
-  bio              : "Gen AI Engineer @ 3UM"
+  bio              : "ML Engineer"
   location         : "Sunnyvale, California"
-  employer         : 3UM
+  employer         : #3UM
   uri              : # URL
   email            : "kargichauhan2302@gmail.com" 
 

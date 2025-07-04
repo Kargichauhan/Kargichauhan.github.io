@@ -8,7 +8,9 @@ redirect_from:
 
 {% include base_path %}
 
-# Education  
+# Education 
+* **M.S in Natural Language Processing**
+  University of California, Santa Cruz, 2025 - 2026
 * **B.S. in Information and Data Science**, Minor in Game Design and Development  
   University of Arizona, 2020 - 2024, GPA: 3.9/4.0
 * **International Baccalaureate**, Navrachana International School, Vadodara, India  
