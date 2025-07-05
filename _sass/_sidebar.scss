@@ -76,12 +76,12 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+.author__avatar img {
+  border-radius: 0 !important;  // removes the circular shape
+  width: 100%;                  // makes sure it fills the container
+  height: auto;                 // maintains image aspect ratio
+  object-fit: cover;            // ensures proper cropping if needed
+}
 
   @include breakpoint($large) {
     display: block;
