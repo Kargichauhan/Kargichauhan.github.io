@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kargi Chauhan</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #e6edf3;
+            --accent-color: #a5a3ff;
+            --accent-hover: #8b87ff;
+            --border-color: #21262d;
+            --card-bg: #161b22;
+            --secondary-text: #7d8590;
+        }
+
+        [data-theme="light"] {
+            --bg-color: #ffffff;
+            --text-color: #24292f;
+            --accent-color: #7c3aed;
+            --accent-hover: #6d28d9;
+            --border-color: #d0d7de;
+            --card-bg: #f6f8fa;
+            --secondary-text: #656d76;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            transition: all 0.2s ease;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav a {
+            color: var(--secondary-text);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s ease;
+        }
+
+        .nav a:hover, .nav a.active {
+            color: var(--accent-color);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 16px;
+            cursor: pointer;
+            padding: 6px;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .theme-toggle:hover {
+            background-color: var(--card-bg);
+        }
+
+        .main-content {
+            display: flex;
+            gap: 60px;
+            margin-bottom: 60px;
+            align-items: flex-start;
+        }
+
+        .content-left {
+            flex: 1;
+        }
+
+        .name {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: var(--text-color);
+            letter-spacing: -0.5px;
+        }
+
+        .bio {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 40px;
+        }
+
+        .bio p {
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+
+        .bio a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .bio a:hover {
+            text-decoration: underline;
+        }
+
+        .bio ul {
+            margin: 16px 0;
+            padding-left: 20px;
+        }
+
+        .bio li {
+            margin-bottom: 8px;
+            color: var(--text-color);
+        }
+
+        .profile-image {
+            flex-shrink: 0;
+        }
+
+        .profile-image img {
+            width: 200px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .section {
+            margin-bottom: 50px;
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: var(--text-color);
+            font-weight: 600;
+        }
+
+        .news-section {
+            margin-top: 50px;
+        }
+
+        .news-section h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: var(--text-color);
+            font-weight: 600;
+        }
+
+        .news-container {
+            max-height: 250px;
+            overflow-y: auto;
+        }
+
+        .news-container::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .news-container::-webkit-scrollbar-track {
+            background: var(--border-color);
+        }
+
+        .news-container::-webkit-scrollbar-thumb {
+            background: var(--accent-color);
+            border-radius: 2px;
+        }
+
+        .news-entry, .paper-entry {
+            display: flex;
+            margin-bottom: 20px;
+            gap: 20px;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .news-entry:last-child, .paper-entry:last-child {
+            border-bottom: none;
+        }
+
+        .date {
+            font-size: 13px;
+            color: var(--secondary-text);
+            min-width: 90px;
+            font-weight: 500;
+            margin-top: 2px;
+        }
+
+        .news-content, .paper-content {
+            flex: 1;
+            font-size: 15px;
+            line-height: 1.5;
+            color: var(--text-color);
+        }
+
+        .paper-content a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .paper-content a:hover {
+            text-decoration: underline;
+        }
+
+        .blog-entry {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 20px;
+        }
+
+        .blog-entry:last-child {
+            border-bottom: none;
+        }
+
+        .blog-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .blog-title a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .blog-title a:hover {
+            color: var(--accent-color);
+        }
+
+        .blog-excerpt {
+            color: var(--secondary-text);
+            line-height: 1.5;
+            margin-top: 12px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .social-links a {
+            color: var(--secondary-text);
+            transition: color 0.2s ease;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+        }
+
+        .social-links a:hover {
+            color: var(--accent-color);
+            background-color: var(--card-bg);
+        }
+
+        .contact-note {
+            text-align: center;
+            margin-top: 20px;
+            color: var(--secondary-text);
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 16px;
+            }
+
+            .header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .nav {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .main-content {
+                flex-direction: column-reverse;
+                gap: 30px;
+                text-align: center;
+            }
+
+            .profile-image img {
+                width: 160px;
+                height: 220px;
+            }
+
+            .name {
+                font-size: 28px;
+            }
+
+            .news-entry, .paper-entry {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .date {
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div></div>
+        <nav class="nav">
+            <a href="#about" class="nav-link active">about</a>
+            <a href="#publications" class="nav-link">publications</a>
+            <a href="#projects" class="nav-link">projects</a>
+            <a href="#blog" class="nav-link">blog</a>
+            <a href="#cv" class="nav-link">cv</a>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section active" id="about">
+            <div class="main-content">
+                <div class="content-left">
+                    <h1 class="name">Kargi Chauhan</h1>
+                    <div class="bio">
+                        <p>I'm an MS candidate in Natural Language Processing at <a href="#">UC Santa Cruz</a>, working with <a href="#">Dr. Leilani Gilpin</a> and <a href="#">Dr. Daniel Fremont</a> on Interpretability and autonomous systems.</p>
+                        
+                        <p>I received my Undergrad from the <a href="#">University of Arizona</a>.</p>
+                        
+                        <p>I like Reinforcement Learning, Autonomous Systems, and Making AI Explainable. I currently research on environment modeling (world modeling) and data generation for autonomous intelligent.</p>
+                        
+                        <p>If an autonomous vehicle ever needs to explain <em>why it made a split-second decision in the middle of traffic</em>, that's exactly the kind of problem I'm trying to solve :)</p>
+                        
+                        <p>Previously:</p>
+                        <ul>
+                            <li>Stealth AI startup fine-tuning LLaMA models for human preference alignment</li>
+                            <li>Visiting ML Research Fellow at the <a href="#">University of Edinburgh</a></li>
+                            <li>NASA JPL building attitude estimation systems for CubeSats</li>
+                        </ul>
+                        
+                        <p>Beyond research, I'm passionate about space exploration. I love experimenting with plant-based cooking and trying every matcha variation I can find.</p>
+                        
+                        <p>I enjoy reading and distilling what I learn into zines (brewing!), and I often spend time in cafés where one article or idea sparks unexpected discoveries on Wikipedia.</p>
+                        
+                        <p>I live by the philosophy that the most interesting breakthroughs happen when you take the scenic route, linear paths are for those who don't appreciate a good plot twist.</p>
+                    </div>
+
+                    <div class="news-section">
+                        <h2>News</h2>
+                        <div class="news-container">
+                            <div class="news-entry">
+                                <div class="date">Sep 22, 2025</div>
+                                <div class="news-content">Neurips Paper got accepted!</div>
+                            </div>
+                            <div class="news-entry">
+                                <div class="date">Sep 08, 2025</div>
+                                <div class="news-content">Attended Nesy 2024 conference.</div>
+                            </div>
+
+                            <div class="news-entry">
+                                <div class="date">Sep 05, 2025</div>
+                                <div class="news-content">Spoke about AI research at Linkedln Office in SF</div>
+                            </div>
+
+                            <div class="news-entry">
+                                <div class="date">Dec 08, 2025</div>
+                                <div class="news-content"> Completed Large Language Model Agents MOOC</div>
+                            </div>
+                        
+                            
+                            <div class="news-entry">
+                                <div class="date">Oct 5, 2024</div>
+                                <div class="news-content">Built ExoSky project at NASA Space Apps Challenge at NASA Ames Research Center.</div>
+                            </div>
+                            
+                            <div class="news-entry">
+                                <div class="date">May 10, 2024</div>
+                                <div class="news-content">Presented on "Enabling Deep Space Exploration Using Small Spacecraft System Architecture" at IPSS Conference (NASA JPL).</div>
+                            </div>
+
+                            <div class="news-entry">
+                                <div class="date"> April 10, 2024</div>
+                                <div class="news-content"> Presented "From Mines to Minds: Exploring Immersive Learning's Influence in Mining Engineering Education" at UR Inspiration Conference.</div>
+                            </div>
+
+        
+
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-image">
+                    <img src="4eb271e4-a5a4-4e33-bed3-63872c78ab49.JPG" alt="Kargi Chauhan" />
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="publications">
+    <h2 class="section-title">Publications</h2>
+    
+    <div style="margin-bottom: 40px;">
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 20px; text-decoration: underline;">2025</h3>
+        
+        <div class="paper-entry" style="margin-bottom: 30px;">
+            <div class="paper-content">
+                <div style="font-weight: 600; margin-bottom: 8px;">
+                    <a href="#">VFSI: Validity First Spatial Intelligence for Constraint-Guided Traffic Diffusion</a>
+                </div>
+                <div style="margin-bottom: 8px; color: var(--text-color);">
+                    <strong>K. Chauhan</strong> and L. H. Gilpin.
+                </div>
+                <div style="color: var(--accent-color); font-size: 14px;">
+                    <a href="#" style="color: var(--accent-color);">NeurIPS</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="paper-entry" style="margin-bottom: 30px;">
+            <div class="paper-content">
+                <div style="font-weight: 600; margin-bottom: 8px;">
+                    <a href="#">Large Language Models and XAI</a>
+                </div>
+                <div style="margin-bottom: 8px; color: var(--text-color);">
+                    <strong>K. Chauhan</strong> and V. Pendyala.
+                </div>
+                <div style="color: var(--secondary-text); font-size: 14px; margin-bottom: 4px;">
+                    Explainable Artificial Intelligence for Trustworthy Decisions in Smart Applications
+                </div>
+                <div style="color: var(--accent-color); font-size: 14px;">
+                    <a href="#" style="color: var(--accent-color);">Under Review</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="margin-bottom: 40px;">
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 20px; text-decoration: underline;">2024</h3>
+        
+        <div class="paper-entry" style="margin-bottom: 30px;">
+            <div class="paper-content">
+                <div style="font-weight: 600; margin-bottom: 8px;">
+                    <a href="http://www.intersmallsatconference.com/past/2024/G.6%20-%20Chauhan/ml_abstract_issc_2024.pdf">Enabling Deep Space Using Inspectors Accompanying Small Spacecraft System of System Architecture</a>
+                </div>
+                <div style="margin-bottom: 8px; color: var(--text-color);">
+                    <strong>K. Chauhan</strong>, A. T. Raj, and J. Thangavelautham.
+                </div>
+                <div style="color: var(--accent-color); font-size: 14px;">
+                    <a href="http://www.intersmallsatconference.com/past/2024/G.6%20-%20Chauhan/ml_abstract_issc_2024.pdf" style="color: var(--accent-color);">Interplanetary Small Satellite Conference (NASA JPL)</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="paper-entry" style="margin-bottom: 30px;">
+            <div class="paper-content">
+                <div style="font-weight: 600; margin-bottom: 8px;">
+                    <a href="https://docs.google.com/document/d/1Ngj655K-PlP5tVVbMkAx9aUTtiRbuzlU/edit?usp=sharing&ouid=115983644740723215134&rtpof=true&sd=true">From Mines to Minds: Exploring Immersive Learning's Influence in Mining Engineering Education</a>
+                </div>
+                <div style="margin-bottom: 8px; color: var(--text-color);">
+                    <strong>K. Chauhan</strong>, A. Anani, and S. Adewuyi.
+                </div>
+                <div style="color: var(--accent-color); font-size: 14px;">
+                    <a href="https://docs.google.com/document/d/1Ngj655K-PlP5tVVbMkAx9aUTtiRbuzlU/edit?usp=sharing&ouid=115983644740723215134&rtpof=true&sd=true" style="color: var(--accent-color);">UR Inspiration Undergraduate Research Conference (SOMP'24)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 20px; text-decoration: underline;">2023</h3>
+        
+        <div class="paper-entry" style="margin-bottom: 30px;">
+            <div class="paper-content">
+                <div style="font-weight: 600; margin-bottom: 8px;">
+                    <a href="https://peer.asee.org/using-online-learning-modules-to-improve-students-use-of-technical-standards-in-additive-manufacturing-courses-and-projects">Using Online Learning Modules to Improve Students' Use of Technical Standards in Additive Manufacturing Courses and Projects</a>
+                </div>
+                <div style="margin-bottom: 8px; color: var(--text-color);">
+                    H. D. Budinoff, A. Wessman, and <strong>K. Chauhan</strong>.
+                </div>
+                <div style="color: var(--accent-color); font-size: 14px;">
+                    <a href="https://peer.asee.org/using-online-learning-modules-to-improve-students-use-of-technical-standards-in-additive-manufacturing-courses-and-projects" style="color: var(--accent-color);">ASEE Annual Conference</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://github.com/Kargichauhan/beyondthestars">Beyond Stars</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                Interactive web app exploring night sky from exoplanets using NASA's Gaia data
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> Python, JavaScript, Three.js, WebGL, ESA Gaia DR3 Star Catalog
+            </div>
+        </div>
+    </div>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://mentalhealthcare-yceuaojkfxaf9u4vxlgbdk.streamlit.app">Mental Health Chatbot for Counselors</a>
+                <a href="https://github.com/Kargichauhan/mental-health-app" style="margin-left: 10px; font-size: 14px; color: var(--secondary-text);">[GitHub]</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                AI-driven mental health support using fine-tuned LLaMA-3
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> Python, QLoRA, Unsloth, HumeAI, Hugging Face
+            </div>
+        </div>
+    </div>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://github.com/Kargichauhan/Agentic_customer_support">Agentic Customer Support</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                Automating customer service workflows with LangGraph and OpenAI
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> Python, LangGraph, OpenAI GPT API, Workflow Visualization
+            </div>
+        </div>
+    </div>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://github.com/Kargichauhan/SceneDiffuser">SceneDiffuser</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                City-scale traffic simulation via generative world model
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> Python, Generative Models, Traffic Simulation
+            </div>
+        </div>
+    </div>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://wardroberecommender-lnq9k62gst4yh8hzv7xgy3.streamlit.app">OutfitEquation</a>
+                <a href="https://github.com/Kargichauhan/Wadrobe_/tree/main" style="margin-left: 10px; font-size: 14px; color: var(--secondary-text);">[GitHub]</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                Agent-based fashion recommendation system
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> Python, Polyvore Dataset, PinAI API, Agent-based Modeling
+            </div>
+        </div>
+    </div>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://github.com/rachelS485/ISTA-498-Capstone-Group-1">UA Course Compass</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                Web application for BS Information Science students course planning
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> HTML, CSS, JavaScript, Node.js, PostgreSQL, NLP algorithms
+            </div>
+        </div>
+    </div>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://github.com/Kargichauhan/Visual_Reasoning_with_LTNs">Visual Reasoning with LTNs</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                Logic Tensor Networks for visual reasoning tasks
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> Python, Logic Tensor Networks, Computer Vision
+            </div>
+        </div>
+    </div>
+    
+    <div class="paper-entry" style="margin-bottom: 30px;">
+        <div class="paper-content">
+            <div style="font-weight: 600; margin-bottom: 8px;">
+                <a href="https://github.com/Kargichauhan/ml-main">Autonomous Deep Space Exploration</a>
+            </div>
+            <div style="margin-bottom: 8px; color: var(--secondary-text); font-size: 14px;">
+                System-of-systems architecture with small spacecraft inspectors
+            </div>
+            <div style="color: var(--secondary-text); font-size: 13px;">
+                <strong>Tech:</strong> Python, Machine Learning Algorithms, Synthetic Data Generation
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="section" id="blog">
+            <h2 class="section-title">Blog</h2>
+            
+            <div class="blog-entry">
+                <div class="blog-title">
+                    <a href="#">The Philosophy of Explainable AI</a>
+                </div>
+                <div class="date">Sep 15, 2024</div>
+                <div class="blog-excerpt">
+                    Exploring why autonomous systems need to explain their decisions and what this means for the future of AI safety...
+                </div>
+            </div>
+            
+            <div class="blog-entry">
+                <div class="blog-title">
+                    <a href="#">Building World Models for Robots</a>
+                </div>
+                <div class="date">Aug 28, 2024</div>
+                <div class="blog-excerpt">
+                    A deep dive into how autonomous vehicles understand their environment and make split-second decisions...
+                </div>
+            </div>
+            
+            <div class="blog-entry">
+                <div class="blog-title">
+                    <a href="#">My Journey from NASA to Academia</a>
+                </div>
+                <div class="date">Jul 10, 2024</div>
+                <div class="blog-excerpt">
+                    Reflections on transitioning from building spacecraft systems to researching AI interpretability...
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="cv">
+    <h2 class="section-title">CV</h2>
+    <div style="padding: 20px 0;">
+        <p style="margin-bottom: 40px;">You can download my full CV <a href="#" style="color: var(--accent-color);">here</a> (PDF).</p>
+        
+        <!-- Education -->
+        <h3 style="margin-bottom: 25px; font-size: 18px; text-decoration: underline;">Education</h3>
+        <div class="paper-entry">
+            <div class="date">2025-Present</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">M.S. in Natural Language Processing</div>
+                <div>University of California, Santa Cruz</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Advisors: Dr. Leilani Gilpin and Dr. Daniel Fremont</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2020-2024</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">B.S. in Information & Data Science</div>
+                <div>University of Arizona</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Minor: Game Design • GPA: 3.9/4.0</div>
+            </div>
+        </div>
+        
+        <!-- Experience -->
+        <h3 style="margin: 40px 0 25px 0; font-size: 18px; text-decoration: underline;">Experience</h3>
+        <div class="paper-entry">
+            <div class="date">2025</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">ML Research Assistant</div>
+                <div>UCSC • AIEA Lab</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Researching verifiable RL and neuro-symbolic pipelines for autonomous-systems reliability</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2025</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Visiting ML Researcher</div>
+                <div>University of Edinburgh</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Hybrid LTNs + SMT program-synthesis workflows for visual reasoning</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2024</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Machine Learning Engineer</div>
+                <div>Stealth Startup</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Post-training & deployment of LLMs for productized inference</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2024</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Machine Learning Intern</div>
+                <div>NASA JPL</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Pose-estimation and lighting pipeline for CubeSat imagery</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2024</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">HCI Researcher</div>
+                <div>NJIT • Ying Wu College of Computing</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Fairness & explainability for aging-focused AI tools</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2022-2023</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Undergraduate Student Researcher</div>
+                <div>University of Arizona College of Engineering</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Supply chain optimization research focusing on lean processes and human factors</div>
+            </div>
+        </div>
+        
+        <!-- Awards -->
+        <h3 style="margin: 40px 0 25px 0; font-size: 18px; text-decoration: underline;">Awards & Recognition</h3>
+        <div class="paper-entry">
+            <div class="date">2024</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">NASA Ames — Galactic Problem Solver</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">NASA International Space Apps Challenge</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2020</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Global Wildcat Scholarship</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">University of Arizona • Four-year merit scholarship covering 100% tuition</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2020-2024</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Dean's List (4 years)</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">University of Arizona</div>
+            </div>
+        </div>
+        
+        <!-- Volunteer -->
+        <h3 style="margin: 40px 0 25px 0; font-size: 18px; text-decoration: underline;">Leadership & Volunteering</h3>
+        <div class="paper-entry">
+            <div class="date">2025</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Ambassador</div>
+                <div>DeepLearning.AI</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Community events and learner support around practical ML</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2025</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">Core Volunteer</div>
+                <div>Women in Big Data</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Programming and mentorship for women in data careers</div>
+            </div>
+        </div>
+        <div class="paper-entry">
+            <div class="date">2022</div>
+            <div class="paper-content">
+                <div style="font-weight: 600;">E-Board Member</div>
+                <div>Google Developer Student Club</div>
+                <div style="color: var(--secondary-text); font-size: 14px;">Organized events, led workshops, and fostered collaboration using Google technologies</div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="mailto:kargichauhan2302@gmail.com" title="Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </a>
+            <a href="https://github.com/Kargichauhan" title="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/kargichauhan/" title="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+            </a>
+            <a href="https://medium.com/@kargic" title="Medium">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                </svg>
+            </a>
+            <a href="https://x.com/Kargichauhan_" title="Twitter">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="contact-note">
+            Best way to reach me is through email!
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        html.setAttribute('data-theme', savedTheme);
+        themeToggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+        });
+
+        // Navigation
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.section');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                navLinks.forEach(l => l.classList.remove('active'));
+                sections.forEach(s => s.classList.remove('active'));
+                
+                link.classList.add('active');
+                
+                const targetId = link.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
