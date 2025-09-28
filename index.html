@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kargi Chauhan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Richard&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #0d1117;
-            --text-color: #e6edf3;
-            --accent-color: #a5a3ff;
-            --accent-hover: #8b87ff;
-            --border-color: #21262d;
-            --card-bg: #161b22;
-            --secondary-text: #7d8590;
-        }
+        --bg-color: #fefefe;
+        --text-color: #2c2c2c;
+        --accent-color: #6366f1;
+        --accent-hover: #4f46e5;
+        --border-color: #e5e7eb;
+        --card-bg: #f8fafc;
+        --secondary-text: #64748b;
+    }
 
         [data-theme="light"] {
-            --bg-color: #ffffff;
-            --text-color: #24292f;
-            --accent-color: #7c3aed;
-            --accent-hover: #6d28d9;
-            --border-color: #d0d7de;
-            --card-bg: #f6f8fa;
-            --secondary-text: #656d76;
+            --bg-color: #fefefe;
+            --text-color: #2c2c2c;
+            --accent-color: #6366f1;
+            --accent-hover: #4f46e5;
+            --border-color: #e5e7eb;
+            --card-bg: #f8fafc;
+            --secondary-text: #64748b;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0f172a;
+            --text-color: #f1f5f9;
+            --accent-color: #818cf8;
+            --accent-hover: #6366f1;
+            --border-color: #334155;
+            --card-bg: #1e293b;
+            --secondary-text: #94a3b8;
         }
 
         * {
@@ -32,40 +43,45 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-            line-height: 1.6;
+            font-family: 'Poor Richard', 'Times New Roman', serif;
+            line-height: 1.8;
             color: var(--text-color);
             background-color: var(--bg-color);
             transition: all 0.2s ease;
-            max-width: 900px;
+            max-width: 950px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 50px 30px;
+            letter-spacing: 0.4px;
         }
 
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 60px;
-            padding-bottom: 20px;
+            margin-bottom: 80px;
+            padding-bottom: 30px;
             border-bottom: 1px solid var(--border-color);
         }
 
         .nav {
             display: flex;
-            gap: 30px;
+            gap: 40px;
             align-items: center;
         }
 
         .nav a {
             color: var(--secondary-text);
             text-decoration: none;
-            font-size: 14px;
+            font-size: 16px;
+            font-weight: 500;
             transition: color 0.2s ease;
+            padding: 8px 12px;
+            border-radius: 6px;
         }
 
         .nav a:hover, .nav a.active {
             color: var(--accent-color);
+            background-color: var(--card-bg);
         }
 
         .theme-toggle {
@@ -86,7 +102,7 @@
         .main-content {
             display: flex;
             gap: 60px;
-            margin-bottom: 60px;
+            margin-bottom: 80px;
             align-items: flex-start;
         }
 
@@ -95,16 +111,16 @@
         }
 
         .name {
-            font-size: 32px;
+            font-size: 38px;
             font-weight: 600;
             margin-bottom: 30px;
             color: var(--text-color);
-            letter-spacing: -0.5px;
+            letter-spacing: -1px;
         }
 
         .bio {
             font-size: 16px;
-            line-height: 1.7;
+            line-height: 1.8;
             margin-bottom: 40px;
         }
 
@@ -137,11 +153,11 @@
         }
 
         .profile-image img {
-            width: 200px;
+            width: 240px;
             height: 280px;
             object-fit: cover;
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
+            border-radius: 2px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
         }
 
         .section {
@@ -172,22 +188,28 @@
         }
 
         .news-container {
-            max-height: 250px;
-            overflow-y: auto;
-        }
+    max-height: 280px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
 
-        .news-container::-webkit-scrollbar {
-            width: 4px;
-        }
+.news-container::-webkit-scrollbar {
+    width: 6px;
+}
 
-        .news-container::-webkit-scrollbar-track {
-            background: var(--border-color);
-        }
+.news-container::-webkit-scrollbar-track {
+    background: var(--border-color);
+    border-radius: 3px;
+}
 
-        .news-container::-webkit-scrollbar-thumb {
-            background: var(--accent-color);
-            border-radius: 2px;
-        }
+.news-container::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 3px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-hover);
+}
 
         .news-entry, .paper-entry {
             display: flex;
@@ -235,26 +257,43 @@
             border-bottom: none;
         }
 
-        .blog-title {
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
+
 
         .blog-title a {
-            color: var(--text-color);
-            text-decoration: none;
-        }
-
-        .blog-title a:hover {
             color: var(--accent-color);
-        }
+            text-decoration: none;
+            }
+            .blog-title a:visited {
+            color: var(--accent-color);
+            }
+            .blog-title a:hover {
+            color: var(--accent-hover);
+            }
+
 
         .blog-excerpt {
             color: var(--secondary-text);
             line-height: 1.5;
             margin-top: 12px;
         }
+
+
+        
+        /* Make CV section headings & titles blue */
+#cv h3 {
+  color: var(--accent-color);
+}
+
+/* First line inside each CV entry (your bold title) */
+#cv .paper-entry .paper-content > div:first-child {
+  color: var(--accent-color);
+}
+
+/* Optional: the small “date” column on the left, if you want it blue too */
+#cv .paper-entry .date {
+  color: var(--accent-color);
+}
+
 
         .social-links {
             display: flex;
@@ -290,56 +329,54 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            body {
-                padding: 20px 16px;
-            }
-
-            .header {
-                flex-direction: column;
-                gap: 20px;
-            }
-
-            .nav {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 20px;
-            }
-
-            .main-content {
-                flex-direction: column-reverse;
-                gap: 30px;
-                text-align: center;
-            }
-
-            .profile-image img {
-                width: 160px;
-                height: 220px;
-            }
-
-            .name {
-                font-size: 28px;
-            }
-
-            .news-entry, .paper-entry {
-                flex-direction: column;
-                gap: 8px;
-            }
-
-            .date {
-                min-width: auto;
-            }
+        body {
+            padding: 20px 16px;
         }
+
+        .header {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .nav {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .main-content {
+            gap: 30px;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .name {
+            font-size: 30px;
+        }
+
+        .news-entry, .paper-entry {
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .date {
+            min-width: auto;
+        }
+    }
     </style>
 </head>
 <body>
     <header class="header">
         <div></div>
         <nav class="nav">
-            <a href="#about" class="nav-link active">about</a>
-            <a href="#publications" class="nav-link">publications</a>
-            <a href="#projects" class="nav-link">projects</a>
-            <a href="#blog" class="nav-link">blog</a>
-            <a href="#cv" class="nav-link">cv</a>
+            <a href="#about" class="nav-link active">About</a>
+            <a href="#publications" class="nav-link">Publications</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#cv" class="nav-link">CV</a>
             <button class="theme-toggle" id="themeToggle">🌙</button>
         </nav>
     </header>
@@ -409,12 +446,7 @@
                                 <div class="date"> April 10, 2024</div>
                                 <div class="news-content"> Presented "From Mines to Minds: Exploring Immersive Learning's Influence in Mining Engineering Education" at UR Inspiration Conference.</div>
                             </div>
-
-        
-
-                            
-
-                            
+         
                         </div>
                     </div>
                 </div>
@@ -456,7 +488,7 @@
                     Explainable Artificial Intelligence for Trustworthy Decisions in Smart Applications
                 </div>
                 <div style="color: var(--accent-color); font-size: 14px;">
-                    <a href="#" style="color: var(--accent-color);">Under Review</a>
+                    <a href="#" style="color: var(--accent-color);">Under Review [Releasing Oct 12 2025]</a>
                 </div>
             </div>
         </div>
@@ -632,44 +664,136 @@
 </section>
 
         <section class="section" id="blog">
-            <h2 class="section-title">Blog</h2>
-            
-            <div class="blog-entry">
-                <div class="blog-title">
-                    <a href="#">The Philosophy of Explainable AI</a>
-                </div>
-                <div class="date">Sep 15, 2024</div>
-                <div class="blog-excerpt">
-                    Exploring why autonomous systems need to explain their decisions and what this means for the future of AI safety...
-                </div>
-            </div>
-            
-            <div class="blog-entry">
-                <div class="blog-title">
-                    <a href="#">Building World Models for Robots</a>
-                </div>
-                <div class="date">Aug 28, 2024</div>
-                <div class="blog-excerpt">
-                    A deep dive into how autonomous vehicles understand their environment and make split-second decisions...
-                </div>
-            </div>
-            
-            <div class="blog-entry">
-                <div class="blog-title">
-                    <a href="#">My Journey from NASA to Academia</a>
-                </div>
-                <div class="date">Jul 10, 2024</div>
-                <div class="blog-excerpt">
-                    Reflections on transitioning from building spacecraft systems to researching AI interpretability...
-                </div>
-            </div>
-        </section>
+    <h2 class="section-title">Blog</h2>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://kargic.medium.com/teaching-machines-to-think-bbc9dfa603a5">Teaching Machines to Think - Agentic AI</a>
+        </div>
+        <div class="date">2025</div>
+        <div class="blog-excerpt">
+            Intelligent agent leveraged using LangGraph to automate customer support workflows while visualizing them dynamically.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://kargic.medium.com/what-training-ai-models-taught-me-about-my-own-brain-8d5e278a9bdd">What Training AI Models Taught Me About My Own Brain</a>
+        </div>
+        <div class="date">2025</div>
+        <div class="blog-excerpt">
+            A journey into machine learning that revealed the most fascinating model was already inside my head.
+        </div>
+    </div>
+    
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://kargic.medium.com/waymos-ai-has-driven-15-billion-miles-you-ll-never-guess-where-dceb79128e2e">Waymo's 15 Billion Mile Journey</a>
+        </div>
+        <div class="date">2025</div>
+        <div class="blog-excerpt">
+            Exploring autonomous vehicle testing in simulated environments.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://kargic.medium.com/i-choose-books-over-everything-else-4d5880219ade">Why I Choose Books Over Everything Else</a>
+        </div>
+        <div class="date">2025</div>
+        <div class="blog-excerpt">
+            Reading as the ultimate form of time travel through human experience.
+        </div>
+    </div>
+
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://kargic.medium.com/why-i-keep-a-list-of-problems-that-wont-let-me-go-00d070dd0b47">Why I Keep a List of Problems That Won’t Let Me Go</a>
+        </div>
+        <div class="date">2025</div>
+        <div class="blog-excerpt">
+            Why I Keep a List of Problems That Won’t Let Me Go
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://medium.com/@kargic/exploring-the-nexus-of-ai-machine-learning-data-science-and-deep-learning-e5b2557c95b">Exploring the Nexus of AI, Machine Learning, Data Science, and Deep Learning</a>
+        </div>
+        <div class="date">2023</div>
+        <div class="blog-excerpt">
+            Dive into the world of AI and discover how data science and deep learning interconnect to shape innovation.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://medium.com/@kargic/get-ready-to-unlock-the-ai-secrets-one-byte-at-a-time-3aa7a55683b">Get Ready to Unlock the AI Secrets, One Byte at a Time</a>
+        </div>
+        <div class="date">2023</div>
+        <div class="blog-excerpt">
+            Break down the secrets of artificial intelligence and its incredible potential in our modern world.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="#">Decoding the Enigma: Unveiling the True Essence of AI (AI Series — Part I)</a>
+        </div>
+        <div class="date">2023</div>
+        <div class="blog-excerpt">
+            Debunk myths about artificial intelligence and explore its true capabilities in this insightful series.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vQSGHj8xfmbvJkzbDDBrulebjpyTZ3F6yV-2VvP0YBeBzbHVhkrU--4rJ5IAmrpuQ/pub">Investigation on Hollywood Singer's Age and Their Followers</a>
+        </div>
+        <div class="date">2023</div>
+        <div class="blog-excerpt">
+            Analyze the curious correlation between age and fan following in the glamorous world of Hollywood singers.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://docs.google.com/document/d/1iAnWozUdVlqp2cDFV0qtfxUo22qK0C8cTbCoTjpCWdI/edit">Effect of Script Structures on Memory Recall</a>
+        </div>
+        <div class="date">2023</div>
+        <div class="blog-excerpt">
+            Uncover how the design of narratives impacts our memory retention and recall mechanisms.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://docs.google.com/document/d/1cuXG4a046usP_vqxqWLNtbt9WppR2RKB/edit">Investigating Antibiotics Effect on Milk Fermentation</a>
+        </div>
+        <div class="date">2023</div>
+        <div class="blog-excerpt">
+            Understand the science of antibiotics and their impact on fermentation across three milk types.
+        </div>
+    </div>
+    
+    <div class="blog-entry">
+        <div class="blog-title">
+            <a href="https://docs.google.com/document/d/1THorvVI5NZ6mEHo6fHtqQyRC4t0sR-Qg/edit">Portrayal of Hate and Love as Reciprocal Passion</a>
+        </div>
+        <div class="date">2023</div>
+        <div class="blog-excerpt">
+            Dive into the depths of passion and explore how love and hate intertwine through compelling characters.
+        </div>
+    </div>
+</section>
 
         <section class="section" id="cv">
     <h2 class="section-title">CV</h2>
     <div style="padding: 20px 0;">
-        <p style="margin-bottom: 40px;">You can download my full CV <a href="#" style="color: var(--accent-color);">here</a> (PDF).</p>
-        
+        <p style="margin-bottom: 40px;">You can download my full CV <a href="#">here</a> (PDF).</p>
+
+
         <!-- Education -->
         <h3 style="margin-bottom: 25px; font-size: 18px; text-decoration: underline;">Education</h3>
         <div class="paper-entry">
@@ -832,7 +956,7 @@
         const themeToggle = document.getElementById('themeToggle');
         const html = document.documentElement;
 
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const savedTheme = localStorage.getItem('theme') || 'light';
         html.setAttribute('data-theme', savedTheme);
         themeToggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
 
