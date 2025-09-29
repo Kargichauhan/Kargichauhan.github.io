@@ -187,29 +187,36 @@
             font-weight: 600;
         }
 
+                /* Compact the news list and show 5 items without scrolling */
         .news-container {
-    max-height: 280px;
-    overflow-y: auto;
-    padding-right: 8px;
-}
+        max-height: 360px;         /* was 280px → fits ~5 rows now */
+        overflow-y: auto;
+        padding-right: 6px;
+        }
 
-.news-container::-webkit-scrollbar {
-    width: 6px;
-}
+        .news-entry {
+        gap: 12px;                  /* was 20px */
+        padding: 10px 0;            /* was 16px */
+        margin-bottom: 12px;        /* was 20px */
+        border-bottom: 1px solid var(--border-color);
+        }
 
-.news-container::-webkit-scrollbar-track {
-    background: var(--border-color);
-    border-radius: 3px;
-}
+        .news-entry:last-child {
+        border-bottom: none;
+        }
 
-.news-container::-webkit-scrollbar-thumb {
-    background: var(--accent-color);
-    border-radius: 3px;
-}
+        .date {
+        min-width: 72px;            /* was 90px */
+        font-size: 12px;            /* was 13px */
+        color: var(--secondary-text);
+        }
 
-.news-container::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-hover);
-}
+        .news-content {
+        font-size: 14px;            /* was 15px */
+        line-height: 1.4;           /* was 1.5 */
+        color: var(--text-color);
+        }
+
 
         .news-entry, .paper-entry {
             display: flex;
@@ -387,24 +394,30 @@
                 <div class="content-left">
                     <h1 class="name">Kargi Chauhan</h1>
                     <div class="bio">
-                        <p>I'm an MS candidate in Natural Language Processing at <a href="#">UC Santa Cruz</a>, working with <a href="#">Dr. Leilani Gilpin</a> and <a href="#">Dr. Daniel Fremont</a> on Interpretability and autonomous systems.</p>
+                        <p>I'm an MS candidate in Natural Language Processing at <a href="https://www.ucsc.edu">UC Santa Cruz</a>, working with <a href="https://people.ucsc.edu/~lgilpin/">Dr. Leilani Gilpin</a> and <a href="https://people.ucsc.edu/~dfremont/">Dr. Daniel Fremont</a> on Interpretability and autonomous systems.</p>
                         
-                        <p>I received my Undergrad from the <a href="#">University of Arizona</a>.</p>
+                        <p>I received my Undergrad from the <a href="https://www.arizona.edu">University of Arizona</a>.</p>
                         
-                        <p>I like Reinforcement Learning, Autonomous Systems, and Making AI Explainable. I currently research on environment modeling (world modeling) and data generation for autonomous intelligent.</p>
+                        <p>I like Reinforcement Learning, Autonomous Systems, and Making AI Explainable. My current research centers on environment modeling (world modeling) and data generation for autonomous intelligent.</p>
                         
                         <p>If an autonomous vehicle ever needs to explain <em>why it made a split-second decision in the middle of traffic</em>, that's exactly the kind of problem I'm trying to solve :)</p>
                         
                         <p>Previously:</p>
                         <ul>
                             <li>Stealth AI startup fine-tuning LLaMA models for human preference alignment</li>
-                            <li>Visiting ML Research Fellow at the <a href="#">University of Edinburgh</a></li>
+                            <li>Visiting ML Research Fellow at the <a href="https://www.ed.ac.uk">University of Edinburgh</a></li>
                             <li>NASA JPL building attitude estimation systems for CubeSats</li>
                         </ul>
                         
                         <p>Beyond research, I'm passionate about space exploration. I love experimenting with plant-based cooking and trying every matcha variation I can find.</p>
                         
                         <p>I enjoy reading and distilling what I learn into zines (brewing!), and I often spend time in cafés where one article or idea sparks unexpected discoveries on Wikipedia.</p>
+
+                        <p>In my free time, I maintain my learning journey blog at 
+                        <a href="https://kargichauhan.github.io/kargisnotebook.github.io/" target="_blank">
+                            Kargi's Notebook
+                        </a>.
+                    </p>
                         
                         <p>I live by the philosophy that the most interesting breakthroughs happen when you take the scenic route, linear paths are for those who don't appreciate a good plot twist.</p>
                     </div>
@@ -791,7 +804,7 @@
         <section class="section" id="cv">
     <h2 class="section-title">CV</h2>
     <div style="padding: 20px 0;">
-        <p style="margin-bottom: 40px;">You can download my full CV <a href="#">here</a> (PDF).</p>
+        <p style="margin-bottom: 40px;">You can download my full CV <a href="Kargi_Chauhan_CV.pdf">here</a>.</p>
 
 
         <!-- Education -->
